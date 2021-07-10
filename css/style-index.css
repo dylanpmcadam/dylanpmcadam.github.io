@@ -1,0 +1,1203 @@
+/* all devices */
+
+
+/* font rules  */
+@font-face {
+    font-family: 'canela-medium';
+    src: url('https://github.com/Yomya/self/blob/17641dda2ed6772243970ffdf36b6d1a4a2d7202/fonts/canelaweb-medium.ttf'), 
+}
+@font-face {
+    font-family: 'calibre-regular';
+    src: url('https://github.com/denvash/dennisvash.com/blob/1378e51a4a49c897ca77a6cf54c579c1dcc0ac5b/src/fonts/Calibre/Calibre-Regular.ttf');
+}
+@font-face {
+    font-family: 'calibre-medium';
+    src: url('https://github.com/denvash/dennisvash.com/blob/1378e51a4a49c897ca77a6cf54c579c1dcc0ac5b/src/fonts/Calibre/Calibre-Medium.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+/* background color */
+body {
+    background: #F9F9F9;
+}
+
+
+/* I’m Dylan, a self-taught product and systems designer */
+h1 {
+    font-family: Canela;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px; /* or 130% */
+    color: #1A2A33; /* black-4 */
+    margin-top: 16px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* section titles */
+h5 {
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase; /* black-1 */
+    color: #A3A9AD;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+
+/* logo */
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* RESUME & CONTACT */
+.shortcut {
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase; /* black-3 */
+    color: #3B4950;
+    transition: all 0.5s ease-out;
+}
+/* remove link underline for RESUME & CONTACT */
+.shortcut:link {
+    text-decoration: none;
+}
+.shortcut:visited {
+text-decoration: none;
+}
+.shortcut:hover {
+text-decoration: none;
+}
+.shortcut:active {
+text-decoration: none;
+}
+
+
+
+/* full portrait photo within smaller div */
+#portrait {
+    grid-column: 1 / 5;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#portrait img {
+    position: relative;
+    width: 100%;
+    top: -10%;
+}
+
+/* bio */
+#bio {    
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px; /* or 150% */
+    color: #3B4950; /* black-3 */
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+
+/* wildlife photo */
+#wildlife-photo {
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#wildlife-photo img {
+    position: relative;
+    height: 100%;
+    left: -20%;
+}
+
+/* globetrotting photo */
+#globetrotting-photo {
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#globetrotting-photo img {
+    position: relative;
+    height: 100%;
+    left: -20%;
+}
+
+
+/* learning photo */
+#learning-photo {
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#learning-photo img {
+    position: relative;
+    height: 100%;
+    left: -18%;
+}
+
+
+h3 {
+    font-family: Canela;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px; /* identical to box height */
+    color: #1A2A33; /* black-4 */
+}
+
+#interests p {
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px; /* or 150% */
+    color: #3B4950; /* black-3 */
+}
+
+
+/* analytic editor */
+#analytic-editor {
+    width: 100%;
+    height: 407px;
+    background: linear-gradient(180deg, #DFE5F1 0%, #E6F1F2 100%);
+    border-radius: 10px;
+}
+#analytic-editor img {
+    width: 217px;
+    height: 152px;
+    border-radius: 2px;
+    transition: all 0.5s ease-out;
+    object-fit: contain;
+}
+
+
+/* govini design system */
+#govini-design-system {
+    width: 100%;
+    height: 407px;
+    background: linear-gradient(180deg, #F2EAE6 0%, #F2E6EB 100%);
+    border-radius: 10px;
+}
+#govini-design-system img {
+    width: 274px;
+    height: 235px;
+    border-radius: 2px;
+    transition: all 0.5s ease-out;
+    object-fit: contain;
+}
+
+
+/* chew */
+#chew {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(180deg, #EBE6F2 0%, #E6EEF2 100%);
+    border-radius: 10px;
+}
+#chew img {
+    width: 204px;
+    height: 206.51px;
+    border-radius: 2px;
+    transition: all 0.5s ease-out;
+}
+
+
+/* remove link underline for case studies */
+#case-studies a:link {
+    text-decoration: none;
+}
+#case-studies a:visited {
+text-decoration: none;
+}
+#case-studies a:hover {
+text-decoration: none;
+}
+#case-studies a:active {
+text-decoration: none;
+}
+
+
+
+h2 {
+    font-family: Canela;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36.4px; /* 130% */
+    color: #1A2A33; /* black-4 */
+}
+
+
+#case-studies p {
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px; /* or 150% */
+    color: #3B4950; /* black-3 */
+}
+
+
+/* footer divider */
+footer hr {
+    border: 1px solid #E8E9EA;
+}
+
+
+/* social media icons */
+footer svg {
+    fill: #3B4950; /* black-3 */
+    transition: all 0.5s ease-out;
+}
+
+
+/* Designed & coded by Dylan McAdam © 2021 */
+h6 {
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px; /* identical to box height */
+    text-align: right;
+    color: #3B4950; /* black-3 */
+}
+
+
+/* layout */
+
+/* css grid */
+.grid-container {
+    display: grid;
+    max-width: 100%;
+    margin: 16px 5% 32px 5%;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+}
+
+
+/* centering the shortcuts with the logo */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1 / 5;
+}
+
+/* spacing the shortcuts */
+.shortcut {
+    margin-left: 32px;
+}
+
+/* blurb spacing */
+#blurb {
+    grid-column: 1 / 5;
+    margin-top: 64px;
+    margin-bottom: 0px;
+}
+
+#blurb h5 {
+    margin-bottom: -10px;
+}
+
+
+/* INTERESTS spacing */
+#interests {
+    grid-column: 1 / 5;
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+#wildlife-photo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#globetrotting-photo {
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+#learning-photo {
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+#interests h3 {
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+#interests p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+
+/* CASE STUDIES spacing */
+#case-studies {
+    grid-column: 1 / 5;
+    margin-top: 64px;
+    margin-bottom: 0px;
+}
+#analytic-editor {
+    margin-top: 0px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+#analytic-editor img {
+    align-self: center;
+    margin-top: 71px;
+    margin-bottom: 76px;
+}
+#analytic-editor h2 {
+    margin-top: 48px;
+    margin-bottom: 0px;
+    margin-left: 7.5%;
+    transition: all 0.5s ease-out;
+}
+#analytic-editor p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 7.5%;
+    transition: all 0.5s ease-out;
+}
+#govini-design-system {
+    margin-top: 0px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+#govini-design-system img {
+    align-self: center;
+    margin-top: 8px;
+    margin-bottom: 50px;
+}
+#govini-design-system h2 {
+    margin-top: 48px;
+    margin-bottom: 0px;
+    margin-left: 7.5%;
+    transition: all 0.5s ease-out;
+}
+#govini-design-system p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 7.5%;
+    transition: all 0.5s ease-out;
+}
+#chew {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+#chew img {
+    align-self: center;
+    margin-top: 61px;
+    margin-bottom: 32.49px;
+}
+#chew h2 {
+    margin-top: 48px;
+    margin-bottom: 0px;
+    margin-left: 7.5%;
+    transition: all 0.5s ease-out;
+}
+#chew p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 7.5%;
+    transition: all 0.5s ease-out;
+}
+
+
+/* footer spacing */
+footer {
+    grid-column: 1 / 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 0px;
+    height: 108px;
+}
+footer hr {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+#linkedin {
+    width: 32px;
+    height: 32px;
+    margin-right: 24px;
+}
+#twitter {
+    width: 32px;
+    height: 32px;
+    margin-left: 24px;
+}
+footer nav {
+    display: flex;
+    justify-content: center;
+}
+footer h6 {
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+
+
+/* remove link underline for icons */
+footer a:link {
+    text-decoration: none;
+}
+footer a:link {
+    text-decoration: none;
+}
+footer a:link {
+    text-decoration: none;
+}
+footer a:link {
+    text-decoration: none;
+}
+
+
+/* animations */
+
+/* linkedin & twitter icons get dark on hover */
+footer svg:hover {
+    fill: #1A2A33; /* black-4 */
+    transform: scale(1.05);
+    transition: all 0.5s ease-out;
+  }
+
+/* resume & contact get dark on hover */
+.shortcut:hover {
+    color: #1A2A33; /* black-4 */
+    font-size: 16.32px; /* transform: scale(1.02) wouldn't work */
+    transition: all 0.5s ease-out;
+}
+
+
+/* case study cards change color on hover */
+#analytic-editor:hover h2 {
+    color: #1258BB;
+    ;
+}
+#govini-design-system:hover h2 {
+    color: #BF4F16;
+}
+#chew:hover h2 {
+    color: #7A4CA7;
+    ;
+}
+
+
+/* case study card content grows on hover */
+#analytic-editor:hover .copy h2 {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#analytic-editor:hover .copy p {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#analytic-editor:hover img {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#govini-design-system:hover .copy h2 {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#govini-design-system:hover .copy p {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#govini-design-system:hover img {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#chew:hover .copy h2 {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#chew:hover .copy p {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#chew:hover img {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+
+
+
+
+/* modal background */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: disabled; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* modal content */
+.modal-content {
+    background-color: #F9F9F9;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 32px 32px 32px 32px;
+    width: 274.5px; /* Could be more or less, depending on screen size */
+    border-radius: 4px;
+    position: relative;
+}
+
+/* close button */
+.close, .close2 {
+    color: #aaa;
+    font-size: 28px;
+    position: absolute;
+    top: 4px;
+    right: 12px;
+}
+
+.close:hover, .close:focus, .close2:hover, .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content .password, .modal-content .password2 {
+    width: 100%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3B4950; /* black-3 */
+}
+
+.modal-content .title {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.modal-content .title p {
+    font-family: Canela;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px; /* identical to box height */
+    color: #1A2A33; /* black-4 */
+    margin: 6px 0px 0px 0px;
+}
+
+.error {
+    border-color: #CD2622;
+}
+
+input {
+    padding: 0.6rem;
+    border-radius: 0.25rem;
+    border: 1px solid #dadadd;
+    background-color: #ffffff;
+    transition: 0.6s;
+}
+
+.modal-content svg {
+    width: 20px;
+    height: auto;
+}
+
+
+
+
+
+
+/* styles for tablet (600px-899px) */
+@media (min-width: 600px) {
+
+    /* css grid */
+    .grid-container {
+        display: grid;
+        max-width: 100%;
+        margin: 16px 2.66% 40px 2.66%;
+        grid-template-columns: repeat(8, 1fr);
+        column-gap: 5%;
+    }
+
+
+    /* fixing the column span on the child divs */
+    header {
+        display: flex;
+        justify-content: space-between;
+        grid-column: 1 / 9;
+    }
+
+    #blurb {
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: repeat(8, 1fr);
+        column-gap: 16px;
+        grid-column: 1 / 9;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    #interests {
+        grid-column: 1 / 9;
+        margin-top: 48px;
+        margin-bottom: 0px;
+    }
+
+    #case-studies {
+        grid-column: 1 / 9;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    footer {
+        grid-column: 1 / 9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+        margin-bottom: 0px;
+        height: 72px;
+    }
+
+
+    /* logo */
+    #logo {
+        width: 75px;
+        height: 75px;
+    }
+
+
+    /* header layout and styling */
+    .shortcut {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+
+    /* blurb layout and styling */
+    #blurb h1 {    
+        grid-column: 1 / 6;
+        font-size: 34px;
+        line-height: 44.2px; /* or 130% */
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    #blurb h5 {
+        margin-bottom: -30px;
+    }
+
+    #portrait {
+        grid-column: 6 / 9;
+    }
+
+    #bio {
+        grid-column: 1 / 9;
+        font-size: 20px;
+        line-height: 30px; /* or 150% */
+        margin-top: 24px;
+        margin-bottom: 0px;
+    }
+
+
+
+    /* interests layout and styling */
+    #interests {
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 16px;
+    }
+    #interests h3 {
+        font-size: 22px;
+        line-height: 22px; /* identical to box height */
+    }
+    #interests p {
+        font-size: 20px;
+        line-height: 30px; /* or 150% */
+    }
+
+
+
+
+    /* wildlife */
+    #wildlife-photo {
+        grid-column: 1 / 2;
+        width: 100%;
+        order: 1;
+    }
+    #wildlife-copy {
+        grid-column: 1 / 2;
+        order: 4;
+    }
+
+
+    /* globetrotting */
+    #globetrotting-photo {
+        grid-column: 2 / 3;
+        width: 100%;
+        margin-top: 0px;
+        order: 2;
+    }
+    #globetrotting-copy {
+        grid-column: 2 / 3;
+        order: 5;
+    }
+
+
+    /* learning */
+    #learning-photo {
+        grid-column: 3 / 4;
+        width: 100%;
+        margin-top: 0px;
+        order: 3;
+    }
+    #learning-copy {
+        grid-column: 3 / 4;
+        order: 6;
+    }
+
+
+    /* case studies layout and styling */
+    #case-studies {
+        margin-bottom: 0px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 32px; /* identical to box height */
+    }
+    #analytic-editor {
+        display: flex;
+        height: 272px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #analytic-editor img {
+        margin-right: 8%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #analytic-editor .copy {
+        margin-left: 8%;
+    }
+    #analytic-editor .copy h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        font-size: 32px;
+        line-height: 32px; /* identical to box height */
+    }
+    #analytic-editor .copy p {
+        margin-left: 0%;
+        font-size: 20px;
+        line-height: 30px; /* or 150% */
+    }
+
+    #govini-design-system {
+        display: flex;
+        height: 272px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #govini-design-system img {
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        transition: all 0.5s ease-out;
+    }
+    #govini-design-system .copy {
+        margin-right: 8%;
+        order: 1;
+    }
+    #govini-design-system .copy h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        font-size: 32px;
+        line-height: 41.6px; /* 130% */
+    }
+    #govini-design-system .copy p {
+        margin-left: 0%;
+        font-size: 20px;
+        line-height: 30px; /* or 150% */
+    }
+
+    #chew {
+        display: flex;
+        height: 272px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #chew img {
+        margin-right: 8%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        transition: all 0.5s ease-out;
+    }
+    #chew .copy {
+        margin-left: 8%;
+    }
+    #chew .copy h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        font-size: 32px;
+        line-height: 32px; /* identical to box height */
+    }
+    #chew .copy p {
+        margin-left: 0%;
+        font-size: 20px;
+        line-height: 30px; /* or 150% */
+    }
+
+
+    footer {
+        grid-column: 1 / 13;
+        margin-top: 96px;
+        margin-bottom: 32px;
+        height: 80px;
+    }
+    footer hr {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 48px;
+    }
+
+
+    /* footer styling and spacing */
+    footer {
+        grid-column: 1 / 9;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+    footer hr {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    footer nav {
+        display: flex;
+        align-items: center;
+    }
+    #linkedin {
+        width: 32px;
+        height: 32px;
+        margin-right: 24px;
+    }
+    #twitter {
+        width: 32px;
+        height: 32px;
+        margin-left: 24px;
+    }
+    footer div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    footer h6 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+
+
+    /* modal content */
+    .modal-content {
+        width: 350px; /* Could be more or less, depending on screen size */
+    }
+
+    .modal-content .title {
+        margin: 0px 0px 24px 0px;
+    }
+
+    .modal-content .password, .modal-content .password2 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .modal-content .title p {
+        font-size: 24px;
+        line-height: 24px; /* identical to box height */
+    }
+
+    .modal-content svg {
+        width: 24px;
+        height: auto;
+    }
+
+}
+
+
+
+
+/* styles for desktop (900px - ) */
+@media (min-width: 900px) {
+
+
+    /* css grid */
+    .grid-container {
+        display: grid;
+        max-width: 852px;
+        margin: 24px auto 48px auto;
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 24px;
+    }
+
+
+
+    /* fixing the column span on the child divs */
+    header {
+        display: flex;
+        justify-content: space-between;
+        grid-column: 1 / 13;
+    }
+
+    #blurb {
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 2.66%;
+        grid-column: 1 / 13;
+        margin-top: 96px;
+        margin-bottom: 0px;
+    }
+
+    #interests {
+        grid-column: 1 / 13;
+        margin-top: 56px;
+        margin-bottom: 0px;
+    }
+
+    #case-studies {
+        grid-column: 1 / 13;
+        margin-top: 96px;
+        margin-bottom: 0px;
+    }
+
+    footer {
+        grid-column: 1 / 13;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 96px;
+        margin-bottom: 0px;
+        height: 80px;
+    }
+
+
+    /* fix h5 styling */
+    h5 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    /* header layout and styling */
+    .shortcut {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+
+    /* blurb layout and styling */
+
+    #blurb h1 {    
+        grid-column: 1 / 9;
+        font-size: 57px;
+        line-height: 74.1px; /* or 130% */
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    #blurb h5 {
+        margin-bottom: 0px;
+    }
+
+    #portrait {
+        grid-column: 9 / 13;
+    }
+
+    #bio {
+        grid-column: 1 / 13;
+        font-size: 22px;
+        line-height: 33px; /* or 150% */
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+
+
+    /* interests layout and styling */
+    #interests {
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 24px;
+    }
+    #interests h3 {
+        font-size: 32px;
+        line-height: 32px; /* identical to box height */
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+    #interests p {
+        font-size: 22px;
+        line-height: 33px; /* or 150% */
+    }
+
+
+
+
+
+    /* case studies layout and styling */
+    #case-studies {
+        margin-bottom: 0px;
+    }
+    #analytic-editor {
+        display: flex;
+        height: 408px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    #analytic-editor img {
+        margin-right: 8.11%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 330px;
+        height: auto;
+    }
+    #analytic-editor .copy {
+        margin-left: 8.11%;
+    }
+    #analytic-editor .copy h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        font-size: 45px;
+        line-height: 45px; /* identical to box height */
+    }
+    #analytic-editor .copy p {
+        margin-left: 0%;
+        margin-top: 16px;
+        font-size: 22px;
+        line-height: 33px; /* or 150% */
+    }
+
+    #govini-design-system {
+        display: flex;
+        height: 408px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    #govini-design-system img {
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 342px;
+        height: auto;
+    }
+    #govini-design-system .copy {
+        margin-right: 8.11%;
+        order: 1;
+    }
+    #govini-design-system .copy h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        font-size: 45px;
+        line-height: 45px; /* identical to box height */
+    }
+    #govini-design-system .copy p {
+        margin-left: 0px;
+        margin-top: 16px;
+        font-size: 22px;
+        line-height: 33px; /* identical to box height, or 150% */
+    }
+
+    #chew {
+        display: flex;
+        height: 408px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #chew img {
+        margin-right: 5.33%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 343px;
+        height: 343px;
+    }
+    #chew .copy {
+        margin-left: 8.11%;
+    }
+    #chew .copy h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        font-size: 45px;
+        line-height: 45px; /* identical to box height */
+    }
+    #chew .copy p {
+        margin-left: 0%;
+        margin-top: 16px;
+        font-size: 22px;
+        line-height: 33px; /* identical to box height, or 150% */
+    }
+
+
+    /* footer styling and spacing */
+    footer hr {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 48px;
+    }
+
+
+    h6 {
+        font-size: 18px;
+    }
+
+
+
+}

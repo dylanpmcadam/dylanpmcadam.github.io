@@ -1,0 +1,1389 @@
+/*  */
+/* all devices */
+/*  */
+
+
+/* font rules  */
+@font-face {
+    font-family: 'canela-medium';
+    src: url('https://github.com/Yomya/self/blob/17641dda2ed6772243970ffdf36b6d1a4a2d7202/fonts/canelaweb-medium.ttf'), 
+}
+@font-face {
+    font-family: 'calibre-regular';
+    src: url('https://github.com/denvash/dennisvash.com/blob/1378e51a4a49c897ca77a6cf54c579c1dcc0ac5b/src/fonts/Calibre/Calibre-Regular.ttf');
+}
+@font-face {
+    font-family: 'calibre-medium';
+    src: url('https://github.com/denvash/dennisvash.com/blob/1378e51a4a49c897ca77a6cf54c579c1dcc0ac5b/src/fonts/Calibre/Calibre-Medium.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+/* background color */
+body {
+    background: #F9F9F9;
+}
+
+
+
+
+/* text */
+h1 {
+    font-family: Canela;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41.6px; /* or 130% */
+    color: #1A2A33; /* black-4 */
+    margin: 0px;
+}
+
+h2 {
+    font-family: Canela;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px; /* identical to box height */
+    color: #1A2A33; /* black-4 */
+    margin: 0px;
+}
+
+h3 {
+    font-family: Canela;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px; /* identical to box height */
+    color: #1A2A33; /* black-4 */
+    margin: 0px;
+}
+
+h4 {
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px; /* identical to box height, or 150% */
+    color: #3B4950; /* black-3 */
+    margin: 0px;
+}
+
+h5 {
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase; /* black-1 */
+    color: #A3A9AD;
+    margin: 0px;
+}
+
+/* Design & code by Dylan McAdam © 2021 */
+h6 {
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px; /* identical to box height */
+    text-align: right;
+    color: #3B4950; /* black-3 */
+}
+
+p {
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px; /* or 150% */
+    color: #3B4950; /* black-3 */
+    margin: 0px;
+}
+
+ul {
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px; /* or 150% */
+    color: #3B4950; /* black-3 */
+    margin: 0px;
+}
+
+ol {
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px; /* or 150% */
+    color: #3B4950; /* black-3 */
+    margin: 0px;
+}
+
+b {
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px; /* or 150% */
+    color: #3B4950; /* black-3 */
+    margin: 0px;
+}
+
+
+
+
+
+/* header */
+
+/* logo */
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* resume & contact */
+.shortcut {
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase; /* black-3 */
+    color: #3B4950;
+    transition: all 0.5s ease-out;
+}
+
+/* remove link underline for resume & contact */
+.shortcut:link {
+    text-decoration: none;
+}
+.shortcut:visited {
+text-decoration: none;
+}
+.shortcut:hover {
+text-decoration: none;
+}
+.shortcut:active {
+text-decoration: none;
+}
+
+/* resume & contact get dark on hover */
+.shortcut:hover {
+    color: #1A2A33; /* black-4 */
+    font-size: 16.32px; /* transform: scale(1.02) wouldn't work */
+    transition: all 0.5s ease-out;
+}
+
+
+
+
+
+/* footer */
+
+/* footer divider */
+footer hr {
+    border: 1px solid #E8E9EA;
+}
+
+/* social media icons */
+footer svg {
+    fill: #3B4950; /* black-3 */
+    transition: all 0.5s ease-out;
+}
+
+/* centering the shortcuts with the logo */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+}
+
+/* spacing the shortcuts */
+.shortcut {
+    margin-left: 32px;
+}
+
+/* footer spacing */
+footer {
+    grid-column: 1 / 5;
+    grid-row: 8 / 9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+    height: 108px;
+}
+footer hr {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+#linkedin {
+    width: 32px;
+    height: 32px;
+    margin-right: 24px;
+}
+#twitter {
+    width: 32px;
+    height: 32px;
+    margin-left: 24px;
+}
+footer nav {
+    display: flex;
+    justify-content: center;
+}
+footer h6 {
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+
+/* remove link underline for icons */
+footer a:link {
+    text-decoration: none;
+}
+footer a:link {
+text-decoration: none;
+}
+footer a:link {
+text-decoration: none;
+}
+footer a:link {
+text-decoration: none;
+}
+
+/* linkedin & twitter icons get dark on hover */
+footer svg:hover {
+    fill: #1A2A33; /* black-4 */
+    transform: scale(1.05);
+    transition: all 0.5s ease-out;
+}
+
+
+
+/* css grid */
+.grid-container {
+    display: grid;
+    max-width: 100%;
+    margin: 16px 5% 32px 5%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat (8, auto);
+    column-gap: 16px;
+    row-gap: 64px;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+/* cover */
+.cover {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(180deg, #DFE5F1 0%, #E6F1F2 100%);
+    border-radius: 10px;
+}
+
+.cover .two {
+    margin: 50px 24px 40px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.cover .three {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.cover .three h1 {
+    margin: 0px 0px 8px 0px;
+}
+
+.cover .four {
+    display: grid;
+    max-width: 100%;
+    margin: 0px 0px 0px 0px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+}
+
+.cover .five {
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover .six {
+    grid-column: 2 / 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover .seven {
+    display: grid;
+    max-width: 100%;
+    margin: 0px 0px 0px 0px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+}
+
+.cover .eight {
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover .nine {
+    grid-column: 2 / 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover h5 {
+    margin: 0px 0px 8px 0px;
+}
+
+
+
+/* introduction */
+.introduction {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-top: 56px;
+}
+
+.introduction h5 {
+    margin: 0px 0px 16px 0px;
+}
+
+.introduction .disclaimer {
+    font-size: 16px;
+    line-height: 24px; /* identical to box height, or 150% */
+}
+
+
+
+/* research */
+.research {
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+    background: linear-gradient(180deg, #DFE5F1 0%, #E6F1F2 100%);
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.research .one {
+    grid-column: 1 / 5;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin: 56px 5% 56px 5%;
+}
+
+.research h5 {
+    margin: 0px 0px 16px 0px;
+}
+
+.research img {
+    margin: 16px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+
+
+
+/* design */
+.design {
+    grid-column: 1 / 5;
+    grid-row: 5 / 6;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.design h5 {
+    margin: 0px 0px 8px 0px;
+}
+
+.design .two {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.design .two img {
+    width: 100%;
+    margin: 0px auto 0px auto;
+}
+
+.design .three p {
+    margin: 0px 0px 8px 0px;
+}
+
+.design .four {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.design .five p {
+    margin: 0px 0px 8px 0px;
+}
+
+.design .six {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.design .seven img {
+    margin: 24px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+.design .ten {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.design .ten img {
+    width: 100%;
+    display: block;
+    margin: 16px auto 0px auto;
+}
+
+
+
+
+/* conclusion */
+.conclusion {
+    grid-column: 1 / 5;
+    grid-row: 6 / 7;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+    background: linear-gradient(180deg, #DFE5F1 0%, #E6F1F2 100%);
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.conclusion .one {
+    grid-column: 1 / 5;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin: 56px 7% 56px 7%;
+}
+
+.conclusion h5 {
+    margin: 0px 0px 16px 0px;
+}
+
+
+
+
+/* other case studies */
+.other {
+    grid-column: 1 / 5;
+    grid-row: 7 / 8;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.other h5 {
+    text-align: center;
+}
+
+.other .one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 28px;
+    margin-left: -80px;
+}
+
+.other .one a {
+    font-family: Canela;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px; /* identical to box height */
+    color: #3B4950; /* black-3 */
+    margin: 0px;
+    transition: all 0.5s ease-out;
+    text-align: center;
+}
+
+/* remove underline link from other case studies */
+.other .one a:link {
+    text-decoration: none;
+}
+.other .one a:visited {
+text-decoration: none;
+}
+.other .one a:hover {
+text-decoration: none;
+}
+.other .one a:active {
+text-decoration: none;
+}
+
+.other .one a:hover {
+    color: #1A2A33; /* black-4 */
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+.other .one a:nth-child(1):hover {
+    color: #BF4F16;
+}
+.other .one a:nth-child(2):hover {
+    color: #7A4CA7;
+}
+
+
+
+
+/* modal background */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: disabled; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* modal content */
+.modal-content {
+    background-color: #F9F9F9;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 32px 32px 32px 32px;
+    width: 274.5px; /* Could be more or less, depending on screen size */
+    border-radius: 4px;
+    position: relative;
+}
+
+/* close button */
+.close, .close2 {
+    color: #aaa;
+    font-size: 28px;
+    position: absolute;
+    top: 4px;
+    right: 12px;
+}
+
+.close:hover, .close:focus, .close2:hover, .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content .password, .modal-content .password2 {
+    width: 100%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3B4950; /* black-3 */
+}
+
+.modal-content .title {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.modal-content .title p {
+    font-family: Canela;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px; /* identical to box height */
+    color: #1A2A33; /* black-4 */
+    margin: 6px 0px 0px 0px;
+}
+
+.error {
+    border-color: #CD2622;
+}
+
+input {
+    padding: 0.6rem;
+    border-radius: 0.25rem;
+    border: 1px solid #dadadd;
+    background-color: #ffffff;
+    transition: 0.6s;
+}
+
+.modal-content svg {
+    width: 20px;
+    height: auto;
+}
+
+
+
+
+figure {
+    margin: 0px;
+}
+figcaption {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 16px;
+    text-align: center;
+    color: #5F6A70;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+/* tablet (600px-899px) */
+/*  */
+@media (min-width: 600px) {
+
+    /* css grid */
+    .grid-container {
+        display: grid;
+        max-width: 100%;
+        margin: 16px 2.66% 40px 2.66%;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat (8, auto);
+        column-gap: 5%;
+        row-gap: 80px;
+    }
+
+    
+
+
+    /* text */
+    h1 {
+        font-family: Canela;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 52px; /* or 130% */
+        color: #1A2A33; /* black-4 */
+        margin: 0px;
+    }
+
+    h2 {
+        font-family: Canela;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 32px; /* identical to box height */
+        color: #1A2A33; /* black-4 */
+        margin: 0px;
+    }
+
+    h3 {
+        font-family: Canela;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 22px; /* identical to box height */
+        color: #1A2A33; /* black-4 */
+        margin: 0px;
+    }
+
+    h4 {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px; /* identical to box height, or 150% */
+        color: #3B4950; /* black-3 */
+        margin: 0px;
+    }
+
+    h5 {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase; /* black-1 */
+        color: #A3A9AD;
+        margin: 0px;
+    }
+
+    /* Design & code by Dylan McAdam © 2021 */
+    h6 {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 12px; /* identical to box height */
+        text-align: right;
+        color: #3B4950; /* black-3 */
+    }
+
+    p {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px; /* or 150% */
+        color: #3B4950; /* black-3 */
+        margin: 0px;
+    }
+
+    ul {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px; /* or 150% */
+        color: #3B4950; /* black-3 */
+        margin: 0px;
+    }
+
+    ol {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px; /* or 150% */
+        color: #3B4950; /* black-3 */
+        margin: 0px;
+    }
+
+    b {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px; /* or 150% */
+        color: #3B4950; /* black-3 */
+        margin: 0px;
+    }
+
+
+
+
+
+
+    /* header  */
+    header {
+        grid-column: 1 / 9;
+    }
+    .shortcut {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    #logo {
+        width: 75px;
+        height: 75px;
+    }
+
+
+    /* footer */
+    footer {
+        grid-column: 1 / 9;
+        height: 80px;
+    }
+    footer hr {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 48px;
+    }
+    footer hr {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    footer nav {
+        display: flex;
+        align-items: center;
+    }
+    #linkedin {
+        width: 32px;
+        height: 32px;
+        margin-right: 24px;
+    }
+    #twitter {
+        width: 32px;
+        height: 32px;
+        margin-left: 24px;
+    }
+    footer div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    footer h6 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+
+
+
+
+
+    /* cover */
+    .cover {
+        grid-column: 1 / 9;
+        grid-row: 2 / 3;
+    }
+    .cover .one {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cover .two {
+        margin: 80px 48px 80px 48px;
+    }
+
+    .cover .two {
+        justify-content: center;
+    }
+
+    .cover .ten {
+        margin: 24px 0px 0px 0px;
+    }
+
+    
+
+
+
+
+
+    /* introduction */
+    .introduction {
+        grid-column: 1 / 9;
+        grid-row: 3 / 4;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        margin-top: 40px;
+    }
+
+    .introduction .disclaimer {
+        font-size: 18px;
+        line-height: 27px; /* identical to box height, or 150% */
+    }
+
+
+    /* research */
+    .research {
+        grid-column: 1 / 9;
+    }
+
+
+
+
+    /* design */
+    .design {
+        grid-column: 1 / 9;
+    }
+    .design .two {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .design .two img {
+        min-width: 0
+    }
+    .design .four {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: flex-start;
+    }
+    .design .four img:nth-child(2) {
+        object-fit: contain;
+    }
+    .design .four img:nth-child(3) {
+        object-fit: contain;
+    }
+    .design .six {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .design .ten {
+        gap: 64px;
+    }
+    .design .ten img {
+        width: 100%;
+        display: block;
+        margin: 0px auto 0px auto;
+    }
+    .design .eleven {
+        display: flex;
+        flex-direction: row;
+        gap: 56px;
+        align-items: center;
+    }
+    .design .eleven img {
+        width: 40%;
+    }
+    .design .twelve {
+        display: flex;
+        flex-direction: row;
+        gap: 56px;
+        align-items: center;
+    }
+    .design .twelve img {
+        order: -1;
+        width: 40%;
+    }
+    .design .thirteen {
+        display: flex;
+        flex-direction: row;
+        gap: 56px;
+        align-items: center;
+    }
+    .design .thirteen img {
+        width: 50%;
+    }
+    .design h5 {
+        margin: 0px 0px 16px 0px;
+    }
+
+
+
+
+
+    /* conclusion */
+    .conclusion {
+        grid-column: 1 / 9;
+    }
+
+
+
+
+    /* other case studies */
+    .other {
+        grid-column: 1 / 9;
+    }
+    .other .one {
+        gap: 50px;
+    }
+    .other .one a {
+        font-size: 24px;
+        line-height: 24px; /* identical to box height */
+    }
+
+
+
+    /* modal content */
+    .modal-content {
+        width: 350px; /* Could be more or less, depending on screen size */
+    }
+
+    .modal-content .title {
+        margin: 0px 0px 24px 0px;
+    }
+
+    .modal-content .password, .modal-content .password2 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .modal-content .title p {
+        font-size: 24px;
+        line-height: 24px; /* identical to box height */
+    }
+
+    .modal-content svg {
+        width: 24px;
+        height: auto;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+/* desktop (900px - ) */
+/*  */
+@media (min-width: 900px) {
+
+
+    /* css grid */
+    .grid-container {
+        display: grid;
+        max-width: 852px;
+        margin: 24px auto 48px auto;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat (8, auto);
+        column-gap: 24px;
+        row-gap: 96px;
+    }
+
+
+
+
+
+    /* text */
+    h1 {
+        font-family: Canela;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 57px;
+        line-height: 74.1px; /* or 130% */
+        color: #1A2A33; /* black-4 */
+        margin: 0px;
+    }
+
+    h2 {
+        font-family: Canela;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 45px; /* identical to box height */
+        color: #1A2A33; /* black-4 */
+        margin: 0px;
+    }
+
+    h3 {
+        font-family: Canela;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 32px; /* identical to box height */
+        color: #1A2A33; /* black-4 */
+        margin: 0px;
+    }
+
+    h4 {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 33px; /* identical to box height, or 150% */
+        color: #3B4950; /* black-3 */
+        margin: 0px;
+    }
+
+    h5 {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase; /* black-1 */
+        color: #A3A9AD;
+        margin: 0px;
+    }
+
+    /* Design & code by Dylan McAdam © 2021 */
+    h6 {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 18px; /* identical to box height */
+        text-align: right;
+        color: #3B4950; /* black-3 */
+    }
+
+    p {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 33px; /* or 150% */
+        color: #3B4950; /* black-3 */
+        margin: 0px;
+    }
+
+    ul {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 33px; /* or 150% */
+        color: #3B4950; /* black-3 */
+        margin: 0px;
+    }
+
+    ol {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 33px; /* or 150% */
+        color: #3B4950; /* black-3 */
+        margin: 0px;
+    }
+
+    b {
+        font-family: Calibre;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px; /* or 150% */
+        color: #3B4950; /* black-3 */
+        margin: 0px;
+    }
+
+
+
+
+
+
+
+    /* header */
+    header {
+        display: flex;
+        justify-content: space-between;
+        grid-column: 1 / 13;
+    }
+    .shortcut {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+
+
+
+
+    /* footer */
+    footer {
+        grid-column: 1 / 13;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 80px;
+    }
+    footer hr {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 48px;
+    }
+
+
+
+
+    /* cover */
+    .cover {
+        grid-column: 1 / 13;
+        grid-row: 2 / 3;
+    }
+    .cover .one {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cover .two {
+        justify-content: center;
+        gap: 48px;
+        margin: 90px 73px 90px 73px;
+    }
+
+    .cover .ten {
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* introduction */
+    .introduction {
+        grid-column: 1 / 13;
+        grid-row: 3 / 4;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+
+
+    /* research */
+    .research {
+        grid-column: 1 / 13;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 24px;
+    }
+    .research .one {
+        grid-column: 1 / 13;
+        max-width: 852px;
+        margin: 96px auto 96px auto;
+        gap: 64px;
+    }
+    .research h5 {
+        margin: 0px 0px 16px 0px;
+    }
+    .research img {
+        margin: 24px 0px 0px 0px;
+        border-radius: 10px;
+    }
+
+
+
+
+
+
+
+
+    /* design */
+    .design {
+        grid-column: 1 / 13;
+        gap: 64px;
+    }
+    .design .two {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .design .two img {
+        min-width: 0
+    }
+    .design .four {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: flex-start;
+    }
+    .design .six {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .design .ten {
+        gap: 80px;
+    }
+    .design .eleven {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        align-items: center;
+    }
+    .design .eleven img {
+        width: 40%;
+    }
+    .design .twelve {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        align-items: center;
+    }
+    .design .twelve img {
+        order: -1;
+        width: 40%;
+    }
+    .design .thirteen {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        align-items: center;
+    }
+    .design .thirteen img {
+        width: 50%;
+    }
+
+
+
+
+
+    /* conclusion */
+    .conclusion {
+        grid-column: 1 / 13;
+    }
+    .conclusion .one {
+        max-width: 852px;
+        margin: 96px auto 96px auto;
+        gap: 64px;
+    }
+
+
+
+
+
+    /* other case studies */
+    .other {
+        grid-column: 1 / 13;
+        gap: 40px;
+    }
+    .other .one {
+        gap: 96px;
+    }
+    .other .one a {
+        font-size: 32px;
+        line-height: 32px; /* identical to box height */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
