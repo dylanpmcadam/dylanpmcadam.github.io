@@ -1368,7 +1368,7 @@ p a:active {
     }
 
 
-    
+
 }
 
 
@@ -1380,6 +1380,10 @@ p a:active {
 
 
 @media (hover: none) {
+
+    .cover .seven {
+        display: block;
+    }
 
     .cover .eight {
         display: none;
