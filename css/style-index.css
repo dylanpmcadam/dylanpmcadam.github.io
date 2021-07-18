@@ -435,6 +435,7 @@ header {
     margin-top: 48px;
     margin-bottom: 0px;
     margin-left: 7.5%;
+    margin-right: 7.5%;
     transition: all 0.5s ease-out;
 }
 #govini-design-system p {
@@ -464,6 +465,7 @@ header {
     margin-top: 8px;
     margin-bottom: 0px;
     margin-left: 7.5%;
+    margin-right: 7.5%;
     transition: all 0.5s ease-out;
 }
 
@@ -681,22 +683,22 @@ input {
 
 
 /* unvisited link */
-a:link {
+p a:link {
     color: #005ea2;
 }
 
 /* visited link */
-a:visited {
+p a:visited {
     color: #54278f;
 }
 
 /* mouse over link */
-a:hover {
+p a:hover {
     color: #1a4480;
 }
   
 /* selected link */
-a:active {
+p a:active {
     color: #162e51;
 }
 
@@ -918,6 +920,7 @@ a:active {
         margin-left: 0%;
         font-size: 32px;
         line-height: 41.6px; /* 130% */
+        margin-right: 0;
     }
     #govini-design-system .copy p {
         margin-left: 0%;
@@ -952,6 +955,7 @@ a:active {
         margin-left: 0%;
         font-size: 20px;
         line-height: 30px; /* or 150% */
+        margin-right: 0;
     }
 
 

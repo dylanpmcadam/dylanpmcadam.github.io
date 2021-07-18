@@ -558,7 +558,7 @@ img {
     flex-direction: column;
 }
 
-.other > * + * { margin-top: 24x;}
+.other > * + * { margin-top: 24px;}
 
 .other h5 {
     text-align: center;
@@ -568,7 +568,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: -80px;
+    padding-right: 30px;
 }
 
 .other .one > * + * { margin-left: 28px;}
@@ -717,22 +717,22 @@ figcaption {
 
 
 /* unvisited link */
-a:link {
+p a:link {
     color: #005ea2;
 }
 
 /* visited link */
-a:visited {
+p a:visited {
     color: #54278f;
 }
 
 /* mouse over link */
-a:hover {
+p a:hover {
     color: #1a4480;
 }
   
 /* selected link */
-a:active {
+p a:active {
     color: #162e51;
 }
 
@@ -1070,6 +1070,9 @@ a:active {
         grid-column: 1 / 9;
     }
     .other .one > * + * { margin-left: 50px;}
+    .other .one {
+        padding-right: 80px;
+    }
     .other .one a {
         font-size: 24px;
         line-height: 24px; /* identical to box height */

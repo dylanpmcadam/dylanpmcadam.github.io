@@ -434,7 +434,7 @@ img {
     flex-direction: column;
 }
 
-.design .one .two > * + * { margin-left: 48px;}
+.design .one .two > * + * { margin-top: 48px;}
 
 .design .two img {
     width: 75%;
@@ -513,10 +513,9 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-right: -35px;
 }
 
-.other .one > * + * { margin-left: 28px;}
+/* .other .one > * + * { margin-left: 28px;} */
 
 .other .one a {
     font-family: Canela;
@@ -662,22 +661,22 @@ figcaption {
 
 
 /* unvisited link */
-a:link {
+p a:link {
     color: #005ea2;
 }
 
 /* visited link */
-a:visited {
+p a:visited {
     color: #54278f;
 }
 
 /* mouse over link */
-a:hover {
+p a:hover {
     color: #1a4480;
 }
   
 /* selected link */
-a:active {
+p a:active {
     color: #162e51;
 }
 
@@ -973,6 +972,9 @@ a:active {
         grid-column: 1 / 9;
     }
     .other .one > * + * { margin-left: 50px;}
+    .other .one {
+        padding-left: 35px;
+    }
     .other .one a {
         font-size: 24px;
         line-height: 24px; /* identical to box height */

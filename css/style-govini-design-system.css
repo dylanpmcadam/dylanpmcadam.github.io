@@ -333,7 +333,7 @@ img {
     flex-direction: column;
 }
 
-.cover .two > * + * { margin-top: 32px;}
+.cover .one .two > * + * { margin-top: 32px;}
 
 .cover .three {
     display: flex;
@@ -715,22 +715,22 @@ figcaption {
 
 
 /* unvisited link */
-a:link {
+p a:link {
     color: #005ea2;
 }
 
 /* visited link */
-a:visited {
+p a:visited {
     color: #54278f;
 }
 
 /* mouse over link */
-a:hover {
+p a:hover {
     color: #1a4480;
 }
   
 /* selected link */
-a:active {
+p a:active {
     color: #162e51;
 }
   
