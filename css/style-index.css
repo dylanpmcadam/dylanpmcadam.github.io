@@ -3,27 +3,53 @@
 
 /* font rules  */
 @font-face {
-    font-family: 'canela-medium';
-    src: url('https://github.com/ametthey/perimetre/blob/f3d57bbfe9deaad85f01403c399431370989e250/dist/assets/fonts/Canela-Medium.eot') format('embedded-opentype'), 
-     url('https://github.com/ametthey/perimetre/blob/f3d57bbfe9deaad85f01403c399431370989e250/dist/assets/fonts/Canela-Medium.woff') format('woff'), 
-     url('https://github.com/ametthey/perimetre/blob/f3d57bbfe9deaad85f01403c399431370989e250/dist/assets/fonts/Canela-Medium.ttf')  format('truetype'),
-     url('https://github.com/ametthey/perimetre/blob/f3d57bbfe9deaad85f01403c399431370989e250/dist/assets/fonts/Canela-Medium.svg') format('svg');
-  }
+    font-family: 'Canela';
+    src: url('fonts/Canela-Medium.eot');
+    src: url('fonts/Canela-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Canela-Medium.woff2') format('woff2'),
+        url('fonts/Canela-Medium.woff') format('woff'),
+        url('fonts/Canela-Medium.ttf') format('truetype'),
+        url('fonts/Canela-Medium.svg#Canela-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 @font-face {
-    font-family: 'calibre-regular';
-    src: url('https://github.com/colinxr/contempo_wp/blob/ce41964ebdc6d59d4d7c40e943a54a043d947dae/wp-content/themes/_scores/assets/fonts/calibre/Calibre-Regular.eot') format('embedded-opentype'), 
-     url('https://github.com/colinxr/contempo_wp/blob/ce41964ebdc6d59d4d7c40e943a54a043d947dae/wp-content/themes/_scores/assets/fonts/calibre/Calibre-Regular.woff') format('woff'), 
-     url('https://github.com/colinxr/contempo_wp/blob/ce41964ebdc6d59d4d7c40e943a54a043d947dae/wp-content/themes/_scores/assets/fonts/calibre/Calibre-Regular.ttf')  format('truetype'),
-     url('https://github.com/colinxr/contempo_wp/blob/ce41964ebdc6d59d4d7c40e943a54a043d947dae/wp-content/themes/_scores/assets/fonts/calibre/Calibre-Regular.svg') format('svg');
-  }
-  @font-face {
-    font-family: 'calibre-medium';
-    src: url('https://github.com/colinxr/contempo_wp/blob/ce41964ebdc6d59d4d7c40e943a54a043d947dae/wp-content/themes/_scores/assets/fonts/calibre/Calibre-Medium.eot') format('embedded-opentype'), 
-     url('https://github.com/colinxr/contempo_wp/blob/ce41964ebdc6d59d4d7c40e943a54a043d947dae/wp-content/themes/_scores/assets/fonts/calibre/Calibre-Medium.woff') format('woff'), 
-     url('https://github.com/colinxr/contempo_wp/blob/ce41964ebdc6d59d4d7c40e943a54a043d947dae/wp-content/themes/_scores/assets/fonts/calibre/Calibre-Medium.ttf')  format('truetype'),
-     url('https://github.com/colinxr/contempo_wp/blob/ce41964ebdc6d59d4d7c40e943a54a043d947dae/wp-content/themes/_scores/assets/fonts/calibre/Calibre-Medium.svg') format('svg');
-  }
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+    font-family: 'Calibre';
+    src: url('fonts/Calibre-Regular.eot');
+    src: url('fonts/Calibre-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Calibre-Regular.woff2') format('woff2'),
+        url('fonts/Calibre-Regular.woff') format('woff'),
+        url('fonts/Calibre-Regular.ttf') format('truetype'),
+        url('fonts/Calibre-Regular.svg#Calibre-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Calibre';
+    src: url('fonts/Calibre-Medium.eot');
+    src: url('fonts/Calibre-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Calibre-Medium.woff2') format('woff2'),
+        url('fonts/Calibre-Medium.woff') format('woff'),
+        url('fonts/Calibre-Medium.ttf') format('truetype'),
+        url('fonts/Calibre-Medium.svg#Calibre-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Regular.eot');
+    src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Lato-Regular.woff2') format('woff2'),
+        url('fonts/Lato-Regular.woff') format('woff'),
+        url('fonts/Lato-Regular.ttf') format('truetype'),
+        url('fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 
@@ -35,7 +61,7 @@ body {
 
 /* I’m Dylan, a self-taught product and systems designer */
 h1 {
-    font-family: Canela;
+    font-family: Canela, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -50,7 +76,7 @@ h1 {
 
 /* section titles */
 h5 {
-    font-family: Calibre;
+    font-family: Calibre, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -72,7 +98,7 @@ h5 {
 
 /* RESUME & CONTACT */
 .shortcut {
-    font-family: Calibre;
+    font-family: Calibre, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -101,21 +127,23 @@ text-decoration: none;
 /* full portrait photo within smaller div */
 #portrait {
     grid-column: 1 / 5;
-    aspect-ratio: 1 / 1;
     border-radius: 10px;
     overflow: hidden;
-}
-#portrait img {
     position: relative;
     width: 100%;
+    padding-top: 100%;
+}
+#portrait img {
+    width: 100%;
+    position: absolute;
     top: -10%;
 }
 
 /* bio */
 #bio {    
-    font-family: Calibre;
+    font-family: Calibre, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 27px; /* or 150% */
     color: #3B4950; /* black-3 */
@@ -126,44 +154,53 @@ text-decoration: none;
 
 /* wildlife photo */
 #wildlife-photo {
-    aspect-ratio: 1 / 1;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
 }
 #wildlife-photo img {
-    position: relative;
+    position: absolute;
     height: 100%;
+    top: 0;
     left: -20%;
 }
 
 /* globetrotting photo */
 #globetrotting-photo {
-    aspect-ratio: 1 / 1;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
 }
 #globetrotting-photo img {
-    position: relative;
+    position: absolute;
     height: 100%;
+    top: 0;
     left: -20%;
 }
 
 
 /* learning photo */
 #learning-photo {
-    aspect-ratio: 1 / 1;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
 }
 #learning-photo img {
-    position: relative;
+    position: absolute;
     height: 100%;
+    top: 0;
     left: -18%;
 }
 
 
 h3 {
-    font-family: Canela;
+    font-family: Canela, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -172,9 +209,9 @@ h3 {
 }
 
 #interests p {
-    font-family: Calibre;
+    font-family: Calibre, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 27px; /* or 150% */
     color: #3B4950; /* black-3 */
@@ -245,7 +282,7 @@ text-decoration: none;
 
 
 h2 {
-    font-family: Canela;
+    font-family: Canela, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -255,9 +292,9 @@ h2 {
 
 
 #case-studies p {
-    font-family: Calibre;
+    font-family: Calibre, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 27px; /* or 150% */
     color: #3B4950; /* black-3 */
@@ -279,9 +316,9 @@ footer svg {
 
 /* Designed & coded by Dylan McAdam © 2021 */
 h6 {
-    font-family: Calibre;
+    font-family: Calibre, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 12px; /* identical to box height */
     text-align: right;
@@ -507,7 +544,7 @@ footer svg:hover {
     color: #BF4F16;
 }
 #chew:hover h2 {
-    color: #7A4CA7;
+    color: #6A468D;
     ;
 }
 
@@ -594,24 +631,29 @@ footer svg:hover {
 
 .modal-content .password, .modal-content .password2 {
     width: 100%;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 16px;
     color: #3B4950; /* black-3 */
 }
 
+.modal-content .password::placeholder, .modal-content .password2::placeholder {
+    color: #A3A9AD; /* black-1 */
+}
+
 .modal-content .title {
     display: flex;
     flex-direction: row;
-    gap: 12px;
     align-items: center;
     margin: 0px 0px 20px 0px;
 }
 
+.modal .modal-content .title > * + * { margin-left: 12px;}
+
 .modal-content .title p {
-    font-family: Canela;
+    font-family: Canela, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -635,6 +677,27 @@ input {
 .modal-content svg {
     width: 20px;
     height: auto;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #005ea2;
+}
+
+/* visited link */
+a:visited {
+    color: #54278f;
+}
+
+/* mouse over link */
+a:hover {
+    color: #1a4480;
+}
+  
+/* selected link */
+a:active {
+    color: #162e51;
 }
 
 

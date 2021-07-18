@@ -5,18 +5,53 @@
 
 /* font rules  */
 @font-face {
-    font-family: 'canela-medium';
-    src: url('https://github.com/Yomya/self/blob/17641dda2ed6772243970ffdf36b6d1a4a2d7202/fonts/canelaweb-medium.ttf'), 
+    font-family: 'Canela';
+    src: url('fonts/Canela-Medium.eot');
+    src: url('fonts/Canela-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Canela-Medium.woff2') format('woff2'),
+        url('fonts/Canela-Medium.woff') format('woff'),
+        url('fonts/Canela-Medium.ttf') format('truetype'),
+        url('fonts/Canela-Medium.svg#Canela-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-    font-family: 'calibre-regular';
-    src: url('https://github.com/denvash/dennisvash.com/blob/1378e51a4a49c897ca77a6cf54c579c1dcc0ac5b/src/fonts/Calibre/Calibre-Regular.ttf');
+    font-family: 'Calibre';
+    src: url('fonts/Calibre-Regular.eot');
+    src: url('fonts/Calibre-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Calibre-Regular.woff2') format('woff2'),
+        url('fonts/Calibre-Regular.woff') format('woff'),
+        url('fonts/Calibre-Regular.ttf') format('truetype'),
+        url('fonts/Calibre-Regular.svg#Calibre-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-    font-family: 'calibre-medium';
-    src: url('https://github.com/denvash/dennisvash.com/blob/1378e51a4a49c897ca77a6cf54c579c1dcc0ac5b/src/fonts/Calibre/Calibre-Medium.ttf');
+    font-family: 'Calibre';
+    src: url('fonts/Calibre-Medium.eot');
+    src: url('fonts/Calibre-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Calibre-Medium.woff2') format('woff2'),
+        url('fonts/Calibre-Medium.woff') format('woff'),
+        url('fonts/Calibre-Medium.ttf') format('truetype'),
+        url('fonts/Calibre-Medium.svg#Calibre-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Regular.eot');
+    src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Lato-Regular.woff2') format('woff2'),
+        url('fonts/Lato-Regular.woff') format('woff'),
+        url('fonts/Lato-Regular.ttf') format('truetype'),
+        url('fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 /* background color */
@@ -296,8 +331,9 @@ img {
     margin: 50px 24px 40px 24px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
 }
+
+.cover .one .two > * + * { margin-top: 32px;}
 
 .cover .three {
     display: flex;
@@ -314,7 +350,6 @@ img {
     max-width: 100%;
     margin: 0px 0px 0px 0px;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 32px;
 }
 
 .cover .five {
@@ -361,9 +396,10 @@ img {
     grid-row: 3 / 4;
     display: flex;
     flex-direction: column;
-    gap: 48px;
     margin-top: 56px;
 }
+
+.introduction > * + * { margin-top: 48px;}
 
 .introduction h5 {
     margin: 0px 0px 16px 0px;
@@ -396,9 +432,10 @@ img {
     grid-column: 1 / 5;
     display: flex;
     flex-direction: column;
-    gap: 48px;
     margin: 56px 5% 56px 5%;
 }
+
+.research .one > * + * { margin-top: 48px;}
 
 .research h5 {
     margin: 0px 0px 16px 0px;
@@ -418,8 +455,9 @@ img {
     grid-row: 5 / 6;
     display: flex;
     flex-direction: column;
-    gap: 48px;
 }
+
+.design > * + * { margin-top: 48px;}
 
 .design h5 {
     margin: 0px 0px 8px 0px;
@@ -428,8 +466,9 @@ img {
 .design .two {
     display: flex;
     flex-direction: column;
-    gap: 40px;
 }
+
+.design .one .two > * + * { margin-top: 40px;}
 
 .design .two img {
     width: 100%;
@@ -443,8 +482,9 @@ img {
 .design .four {
     display: flex;
     flex-direction: column;
-    gap: 16px;
 }
+
+.design .one .two .three .four > * + * { margin-top: 16px;}
 
 .design .five p {
     margin: 0px 0px 8px 0px;
@@ -453,8 +493,9 @@ img {
 .design .six {
     display: flex;
     flex-direction: column;
-    gap: 16px;
 }
+
+.design .one .two .five .six > * + * { margin-top: 16px;}
 
 .design .seven img {
     margin: 24px 0px 0px 0px;
@@ -464,8 +505,9 @@ img {
 .design .ten {
     display: flex;
     flex-direction: column;
-    gap: 48px;
 }
+
+.design .eight .ten > * + * { margin-top: 48px;}
 
 .design .ten img {
     width: 100%;
@@ -496,9 +538,10 @@ img {
     grid-column: 1 / 5;
     display: flex;
     flex-direction: column;
-    gap: 48px;
     margin: 56px 7% 56px 7%;
 }
+
+.conclusion .one > * + * { margin-top: 48px;}
 
 .conclusion h5 {
     margin: 0px 0px 16px 0px;
@@ -513,8 +556,9 @@ img {
     grid-row: 7 / 8;
     display: flex;
     flex-direction: column;
-    gap: 24px;
 }
+
+.other > * + * { margin-top: 24x;}
 
 .other h5 {
     text-align: center;
@@ -524,9 +568,10 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 28px;
     margin-left: -80px;
 }
+
+.other .one > * + * { margin-left: 28px;}
 
 .other .one a {
     font-family: Canela;
@@ -535,7 +580,6 @@ img {
     font-size: 20px;
     line-height: 26px; /* identical to box height */
     color: #3B4950; /* black-3 */
-    margin: 0px;
     transition: all 0.5s ease-out;
     text-align: center;
 }
@@ -563,7 +607,7 @@ text-decoration: none;
     color: #BF4F16;
 }
 .other .one a:nth-child(2):hover {
-    color: #7A4CA7;
+    color: #6A468D;
 }
 
 
@@ -621,10 +665,11 @@ text-decoration: none;
 .modal-content .title {
     display: flex;
     flex-direction: row;
-    gap: 12px;
     align-items: center;
     margin: 0px 0px 20px 0px;
 }
+
+.modal .modal-content .title > * + * { margin-left: 12px;}
 
 .modal-content .title p {
     font-family: Canela;
@@ -660,7 +705,10 @@ figure {
     margin: 0px;
 }
 figcaption {
-    font-size: 14px;
+    font-family: Calibre;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px; /* or 150% */
     font-style: italic;
     margin-top: 16px;
     text-align: center;
@@ -668,7 +716,25 @@ figcaption {
 }
 
 
+/* unvisited link */
+a:link {
+    color: #005ea2;
+}
 
+/* visited link */
+a:visited {
+    color: #54278f;
+}
+
+/* mouse over link */
+a:hover {
+    color: #1a4480;
+}
+  
+/* selected link */
+a:active {
+    color: #162e51;
+}
 
 
 
@@ -901,9 +967,10 @@ figcaption {
         grid-row: 3 / 4;
         display: flex;
         flex-direction: column;
-        gap: 48px;
         margin-top: 40px;
     }
+
+    .introduction > * + * { margin-top: 48px;}
 
     .introduction .disclaimer {
         font-size: 18px;
@@ -926,17 +993,17 @@ figcaption {
     .design .two {
         display: flex;
         flex-direction: column;
-        gap: 40px;
     }
+    .design .one .two > * + * { margin-top: 40px;}
     .design .two img {
         min-width: 0
     }
     .design .four {
         display: flex;
         flex-direction: row;
-        gap: 16px;
         align-items: flex-start;
     }
+    .design .one .two .three .four > * + * { margin-left: 16px;}
     .design .four img:nth-child(2) {
         object-fit: contain;
     }
@@ -946,11 +1013,9 @@ figcaption {
     .design .six {
         display: flex;
         flex-direction: column;
-        gap: 32px;
     }
-    .design .ten {
-        gap: 64px;
-    }
+    .design .one .two .five .six > * + * { margin-top: 32px;}
+    .design .eight .ten > * + * { margin-top: 64px;}
     .design .ten img {
         width: 100%;
         display: block;
@@ -959,30 +1024,30 @@ figcaption {
     .design .eleven {
         display: flex;
         flex-direction: row;
-        gap: 56px;
         align-items: center;
     }
+    .design .eight .ten .eleven > * + * { margin-left: 56px;}
     .design .eleven img {
         width: 40%;
     }
     .design .twelve {
         display: flex;
         flex-direction: row;
-        gap: 56px;
         align-items: center;
     }
+    .design .eight .ten .twelve > * + * { margin-right: 56px;}
     .design .twelve img {
         order: -1;
-        width: 40%;
+        min-width: 40%;
     }
     .design .thirteen {
         display: flex;
         flex-direction: row;
-        gap: 56px;
         align-items: center;
     }
+    .design .eight .ten .thirteen > * + * { margin-left: 56px;}
     .design .thirteen img {
-        width: 50%;
+        min-width: 50%;
     }
     .design h5 {
         margin: 0px 0px 16px 0px;
@@ -1004,9 +1069,7 @@ figcaption {
     .other {
         grid-column: 1 / 9;
     }
-    .other .one {
-        gap: 50px;
-    }
+    .other .one > * + * { margin-left: 50px;}
     .other .one a {
         font-size: 24px;
         line-height: 24px; /* identical to box height */
@@ -1228,9 +1291,10 @@ figcaption {
 
     .cover .two {
         justify-content: center;
-        gap: 48px;
         margin: 90px 73px 90px 73px;
     }
+
+    .cover .one .two > * + * { margin-top: 48px;}
 
     .cover .ten {
         width: 90%;
@@ -1253,8 +1317,9 @@ figcaption {
         grid-row: 3 / 4;
         display: flex;
         flex-direction: column;
-        gap: 64px;
     }
+
+    .introduction > * + * { margin-top: 64px;}
 
 
 
@@ -1269,8 +1334,8 @@ figcaption {
         grid-column: 1 / 13;
         max-width: 852px;
         margin: 96px auto 96px auto;
-        gap: 64px;
     }
+    .research .one > * + * { margin-top: 64px;}
     .research h5 {
         margin: 0px 0px 16px 0px;
     }
@@ -1289,57 +1354,55 @@ figcaption {
     /* design */
     .design {
         grid-column: 1 / 13;
-        gap: 64px;
     }
+    .design > * + * { margin-top: 64px;}
     .design .two {
         display: flex;
         flex-direction: column;
-        gap: 40px;
     }
+    .design .one .two > * + * { margin-top: 40px;}
     .design .two img {
         min-width: 0
     }
     .design .four {
         display: flex;
         flex-direction: row;
-        gap: 16px;
         align-items: flex-start;
     }
+    .design .one .two .three .four > * + * { margin-left: 16px;}
     .design .six {
         display: flex;
         flex-direction: column;
-        gap: 48px;
     }
-    .design .ten {
-        gap: 80px;
-    }
+    .design .one .two .five .six > * + * { margin-top: 48px;}
+    .design .eight .ten > * + * { margin-top: 80px;}
     .design .eleven {
         display: flex;
         flex-direction: row;
-        gap: 80px;
         align-items: center;
     }
+    .design .eight .ten .eleven > * + * { margin-left: 80px;}
     .design .eleven img {
         width: 40%;
     }
     .design .twelve {
         display: flex;
         flex-direction: row;
-        gap: 80px;
         align-items: center;
     }
+    .design .eight .ten .twelve > * + * { margin-right: 80px;}
     .design .twelve img {
         order: -1;
-        width: 40%;
+        min-width: 40%;
     }
     .design .thirteen {
         display: flex;
         flex-direction: row;
-        gap: 80px;
         align-items: center;
     }
+    .design .eight .ten .thirteen > * + * { margin-left: 80px;}
     .design .thirteen img {
-        width: 50%;
+        min-width: 50%;
     }
 
 
@@ -1353,8 +1416,8 @@ figcaption {
     .conclusion .one {
         max-width: 852px;
         margin: 96px auto 96px auto;
-        gap: 64px;
     }
+    .conclusion .one > * + * { margin-top: 64px;}
 
 
 
@@ -1363,11 +1426,9 @@ figcaption {
     /* other case studies */
     .other {
         grid-column: 1 / 13;
-        gap: 40px;
     }
-    .other .one {
-        gap: 96px;
-    }
+    .other > * + * { margin-top: 40px;}
+    .other .one > * + * { margin-left: 96px;}
     .other .one a {
         font-size: 32px;
         line-height: 32px; /* identical to box height */
