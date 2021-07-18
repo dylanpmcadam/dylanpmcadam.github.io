@@ -1202,12 +1202,25 @@ p a:active {
 
     .cover .two > * + * { margin-top: 48px;}
 
-    .cover .eight {
-        display: block;
+    /* media query to target tablets in landscape mode to turn off chew prototype and replace with chew prototype image */
+    @media (hover: none) {
+
+        .cover .seven {
+            display: block;
+        }
+    
+        .cover .eight {
+            display: none;
+        }
+
     }
 
     .cover .seven {
         display: none;
+    }
+
+    .cover .eight {
+        display: block;
     }
 
     .cover .eight {
@@ -1368,25 +1381,5 @@ p a:active {
     }
 
 
-
-}
-
-
-
-
-
-
-
-
-/* media query to target tablets in landscape mode to turn off chew prototype and replace with chew prototype image */
-@media (min-width: 600px) and (max-width: 899px) and (orientation : landscape) {
-
-    .cover .seven {
-        display: block;
-    }
-
-    .cover .eight {
-        display: none;
-    }
 
 }
