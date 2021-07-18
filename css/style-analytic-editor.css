@@ -350,6 +350,7 @@ img {
     max-width: 100%;
     margin: 0px 0px 0px 0px;
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
 }
 
 .cover .five {
