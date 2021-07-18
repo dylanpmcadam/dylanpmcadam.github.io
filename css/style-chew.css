@@ -1378,8 +1378,8 @@ p a:active {
 
 
 
-
-@media (hover: none) {
+/* media query to target tablets in landscape mode to turn off chew prototype and replace with chew prototype image */
+@media (min-width: 600px) and (max-width: 899px) and (orientation : landscape) {
 
     .cover .seven {
         display: block;
