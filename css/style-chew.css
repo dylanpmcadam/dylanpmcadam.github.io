@@ -1202,7 +1202,7 @@ p a:active {
 
     .cover .two > * + * { margin-top: 48px;}
 
-    /* media query to target tablets in landscape mode to turn off chew prototype and replace with chew prototype image */
+    /* media query to remove chew prototype on tablets in landscape mode */
     @media (hover: none) {
 
         .cover .seven {
@@ -1215,12 +1215,17 @@ p a:active {
 
     }
 
-    .cover .seven {
-        display: none;
-    }
+    /* media query to display chew prototype on desktop */
+    @media (hover: hover) {
 
-    .cover .eight {
-        display: block;
+        .cover .seven {
+            display: none;
+        }
+    
+        .cover .eight {
+            display: block;
+        }
+
     }
 
     .cover .eight {
