@@ -313,6 +313,7 @@ img {
     grid-row: 2 / 3;
     width: 100%;
     height: auto;
+    max-height: 100%;
     background: linear-gradient(180deg, #EBE6F2 0%, #E6EEF2 100%);
     border-radius: 10px;
 }
@@ -882,6 +883,7 @@ p a:active {
     .cover .seven {
         width: 50%;
         height: auto;
+        max-height: 100%;
         object-fit: contain;
     }
 
