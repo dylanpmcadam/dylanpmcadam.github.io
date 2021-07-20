@@ -261,12 +261,12 @@ footer hr {
 #linkedin {
     width: 32px;
     height: 32px;
-    margin-right: 24px;
+    margin-right: 16px;
 }
 #twitter {
     width: 32px;
     height: 32px;
-    margin-left: 24px;
+    margin-left: 16px;
 }
 footer nav {
     display: flex;
@@ -404,10 +404,6 @@ img {
 
 .introduction .two img {
     margin: 16px 0px 0px 0px;
-}
-
-.introduction .two figure {
-    margin-bottom: 32px;
 }
 
 .introduction h5 {
@@ -905,12 +901,12 @@ p a:active {
     #linkedin {
         width: 32px;
         height: 32px;
-        margin-right: 24px;
+        margin-right: 16px;
     }
     #twitter {
         width: 32px;
         height: 32px;
-        margin-left: 24px;
+        margin-left: 16px;
     }
     footer div {
         display: flex;
@@ -1271,9 +1267,6 @@ p a:active {
         flex-direction: column;
     }
     .introduction > * + * { margin-top: 64px;}
-    .introduction .two figure {
-        margin-bottom: 40px;
-    }
 
 
 

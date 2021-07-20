@@ -261,12 +261,12 @@ footer hr {
 #linkedin {
     width: 32px;
     height: 32px;
-    margin-right: 24px;
+    margin-right: 16px;
 }
 #twitter {
     width: 32px;
     height: 32px;
-    margin-left: 24px;
+    margin-left: 16px;
 }
 footer nav {
     display: flex;
@@ -907,12 +907,12 @@ p a:active {
     #linkedin {
         width: 32px;
         height: 32px;
-        margin-right: 24px;
+        margin-right: 16px;
     }
     #twitter {
         width: 32px;
         height: 32px;
-        margin-left: 24px;
+        margin-left: 16px;
     }
     footer div {
         display: flex;
