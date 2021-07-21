@@ -218,9 +218,9 @@ Remove the inner border and padding in Firefox.
 Restore the focus styles unset by the previous rule.
 */
 
-:-moz-focusring {
+/* :-moz-focusring {
 	outline: 1px dotted ButtonText;
-}
+} */
 
 /**
 Remove the additional ':invalid' styles in Firefox.
