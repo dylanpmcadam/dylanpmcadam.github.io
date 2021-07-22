@@ -207,8 +207,7 @@ text-decoration: none;
 
 /* resume & contact get dark on hover */
 .shortcut:hover {
-    color: #1A2A33; /* black-4 */
-    font-size: 16.32px; /* transform: scale(1.02) wouldn't work */
+    opacity: 0.5;
     transition: all 0.5s ease-out;
 }
 
@@ -293,8 +292,7 @@ text-decoration: none;
 
 /* linkedin & twitter icons get dark on hover */
 footer svg:hover {
-    fill: #1A2A33; /* black-4 */
-    transform: scale(1.05);
+    opacity: 0.5;
     transition: all 0.5s ease-out;
 }
 
@@ -1053,6 +1051,13 @@ p a:active {
     .design h5 {
         margin: 0px 0px 16px 0px;
     }
+    .design .four img:nth-child(1) {
+        width: 64%;
+        height: auto;
+    }
+    .design .one .two .three .four > * + * {
+        margin-top: 0px;
+    }
 
 
 
@@ -1366,7 +1371,7 @@ p a:active {
     }
     .design .one .two > * + * { margin-top: 40px;}
     .design .two img {
-        min-width: 0
+        min-width: 0;
     }
     .design .four {
         display: flex;
@@ -1374,6 +1379,7 @@ p a:active {
         align-items: flex-start;
     }
     .design .one .two .three .four > * + * { margin-left: 16px;}
+    .design .one .two .three .four > * + * { margin-top: 0px;}
     .design .six {
         display: flex;
         flex-direction: column;
@@ -1407,6 +1413,10 @@ p a:active {
     .design .eight .ten .thirteen > * + * { margin-left: 80px;}
     .design .thirteen img {
         min-width: 50%;
+    }
+    .design .four img:nth-child(1) {
+        max-width: 326px;
+        height: auto;
     }
 
 

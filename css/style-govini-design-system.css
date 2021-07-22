@@ -207,8 +207,7 @@ text-decoration: none;
 
 /* resume & contact get dark on hover */
 .shortcut:hover {
-    color: #1A2A33; /* black-4 */
-    font-size: 16.32px; /* transform: scale(1.02) wouldn't work */
+    opacity: 0.5;
     transition: all 0.5s ease-out;
 }
 
@@ -293,8 +292,7 @@ text-decoration: none;
 
 /* linkedin & twitter icons get dark on hover */
 footer svg:hover {
-    fill: #1A2A33; /* black-4 */
-    transform: scale(1.05);
+    opacity: 0.5;
     transition: all 0.5s ease-out;
 }
 
