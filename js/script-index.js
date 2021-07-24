@@ -1,1 +1,155 @@
-var _0x403f=['decision','389CUPbAS','focus','none','mouseover','block','5825nuehXU','error','getElementById','govini-design-system','myModal2','password','remove','1280794IKeNzh','1134753hSqnvB','onsubmit','display','value','3653305zhBbWj','parentElement','which','onkeyup','add','images/logo-smooth.svg','blur','onclick','1218630ysVPdU','style','close','110322cLgQLC','password2','target','analytic-editor.html','classList','mouseout','images/logo.svg','logo','3433fNWxKD','myModal','91ftBkEg','src','open','govini-design-system.html','addEventListener','_self','close2'];var _0x36f857=_0x391b;(function(_0x10c01c,_0xd24b30){var _0x59b1e8=_0x391b;while(!![]){try{var _0x3b8225=-parseInt(_0x59b1e8(0x117))*parseInt(_0x59b1e8(0x10a))+parseInt(_0x59b1e8(0xfd))+parseInt(_0x59b1e8(0x11e))+-parseInt(_0x59b1e8(0x100))+-parseInt(_0x59b1e8(0x108))*-parseInt(_0x59b1e8(0x112))+parseInt(_0x59b1e8(0x11f))+-parseInt(_0x59b1e8(0x123));if(_0x3b8225===_0xd24b30)break;else _0x10c01c['push'](_0x10c01c['shift']());}catch(_0x4f7ce0){_0x10c01c['push'](_0x10c01c['shift']());}}}(_0x403f,0xa5048));var logo=document[_0x36f857(0x119)](_0x36f857(0x107));logo['addEventListener'](_0x36f857(0x115),function(){var _0x354090=_0x36f857;this[_0x354090(0x10b)]=_0x354090(0xfa);}),logo[_0x36f857(0x10e)](_0x36f857(0x105),function(){var _0x4b06f6=_0x36f857;this[_0x4b06f6(0x10b)]=_0x4b06f6(0x106);});var modal=document[_0x36f857(0x119)](_0x36f857(0x109)),card=document['getElementById']('analytic-editor'),span=document['getElementsByClassName'](_0x36f857(0xff))[0x0];card[_0x36f857(0xfc)]=function(){var _0x33abf4=_0x36f857;modal[_0x33abf4(0xfe)]['display']=_0x33abf4(0x116),document['getElementById'](_0x33abf4(0x11c))['focus']();},span[_0x36f857(0xfc)]=function(){var _0x40025d=_0x36f857;modal[_0x40025d(0xfe)][_0x40025d(0x121)]=_0x40025d(0x114),document['getElementById']('password')[_0x40025d(0x104)][_0x40025d(0x11d)](_0x40025d(0x118)),document[_0x40025d(0x119)](_0x40025d(0x11c))[_0x40025d(0x122)]='';},window[_0x36f857(0xfc)]=function(_0x1de905){var _0x301508=_0x36f857;_0x1de905[_0x301508(0x102)]==modal&&(modal[_0x301508(0xfe)][_0x301508(0x121)]=_0x301508(0x114),document[_0x301508(0x119)](_0x301508(0x11c))['classList'][_0x301508(0x11d)](_0x301508(0x118)),document[_0x301508(0x119)](_0x301508(0x11c))[_0x301508(0x122)]='');};var input=document[_0x36f857(0x119)](_0x36f857(0x11c));input[_0x36f857(0xf8)]=function(_0x179bc6){var _0x4ffa94=_0x36f857;if(_0x179bc6[_0x4ffa94(0x125)]==0xd)passwordCheck();},input[_0x36f857(0x124)][_0x36f857(0x120)]=function(){return![];};function passwordCheck(){var _0x14a5ec=_0x36f857,_0x1d5865=document[_0x14a5ec(0x119)]('password')['value'];_0x1d5865==_0x14a5ec(0x111)?window['open'](_0x14a5ec(0x103),_0x14a5ec(0x10f)):(input['blur'](),document[_0x14a5ec(0x119)](_0x14a5ec(0x11c))[_0x14a5ec(0x122)]='',document[_0x14a5ec(0x119)](_0x14a5ec(0x11c))[_0x14a5ec(0x104)][_0x14a5ec(0xf9)](_0x14a5ec(0x118)));}function _0x391b(_0x57b8ca,_0x56982e){return _0x391b=function(_0x403f51,_0x391b46){_0x403f51=_0x403f51-0xf8;var _0xa28cfa=_0x403f[_0x403f51];return _0xa28cfa;},_0x391b(_0x57b8ca,_0x56982e);}var modal2=document['getElementById'](_0x36f857(0x11b)),card2=document[_0x36f857(0x119)](_0x36f857(0x11a)),span2=document['getElementsByClassName'](_0x36f857(0x110))[0x0];card2[_0x36f857(0xfc)]=function(){var _0x7c7f4b=_0x36f857;modal2['style'][_0x7c7f4b(0x121)]=_0x7c7f4b(0x116),document['getElementById'](_0x7c7f4b(0x101))[_0x7c7f4b(0x113)]();},span2[_0x36f857(0xfc)]=function(){var _0x44dfa6=_0x36f857;modal2[_0x44dfa6(0xfe)][_0x44dfa6(0x121)]=_0x44dfa6(0x114),document['getElementById']('password2')[_0x44dfa6(0x104)][_0x44dfa6(0x11d)](_0x44dfa6(0x118)),document[_0x44dfa6(0x119)](_0x44dfa6(0x101))[_0x44dfa6(0x122)]='';},window[_0x36f857(0xfc)]=function(_0x482d70){var _0x365ef0=_0x36f857;_0x482d70['target']==modal2&&(modal2[_0x365ef0(0xfe)][_0x365ef0(0x121)]=_0x365ef0(0x114),document['getElementById'](_0x365ef0(0x101))['classList']['remove'](_0x365ef0(0x118)),document[_0x365ef0(0x119)](_0x365ef0(0x101))[_0x365ef0(0x122)]='');};var input2=document[_0x36f857(0x119)](_0x36f857(0x101));input2[_0x36f857(0xf8)]=function(_0x1da8be){var _0x14e884=_0x36f857;if(_0x1da8be[_0x14e884(0x125)]==0xd)passwordCheck2();},input2['parentElement'][_0x36f857(0x120)]=function(){return![];};function passwordCheck2(){var _0x1133c7=_0x36f857,_0xa763df=document[_0x1133c7(0x119)](_0x1133c7(0x101))[_0x1133c7(0x122)];_0xa763df==_0x1133c7(0x111)?window[_0x1133c7(0x10c)](_0x1133c7(0x10d),_0x1133c7(0x10f)):(input2[_0x1133c7(0xfb)](),document[_0x1133c7(0x119)](_0x1133c7(0x101))[_0x1133c7(0x122)]='',document['getElementById'](_0x1133c7(0x101))['classList']['add'](_0x1133c7(0x118)));}
+// on hover the logo will go smooth and return to pixelated when you stop hovering
+var logo = document.getElementById('logo');
+logo.addEventListener('mouseover', function(){
+    this.src = "images/logo-smooth.svg"
+  });
+logo.addEventListener('mouseout', function(){
+    this.src = "images/logo.svg"
+});
+
+
+
+// MODAL 1 - ANALYTIC EDITOR
+
+// get the modal
+var modal = document.getElementById("myModal");
+
+// get the analytic editor card that opens the modal
+var card = document.getElementById("analytic-editor");
+
+// get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// when the user clicks on the analytic editor card, open the modal and autofocus the input box
+card.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("password").focus();
+}
+
+// when the user clicks on <span> (x), close the modal, reset the error styling, and remove any entered value form the input box
+span.onclick = function() {
+  modal.style.display = "none";
+  document.getElementById("password").classList.remove('error');
+  document.getElementById('password').value = '';
+}
+
+// when the user clicks anywhere outside of the modal, close the modal, reset the error styling, and remove any entered value form the input box
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    document.getElementById("password").classList.remove('error');
+    document.getElementById('password').value = '';
+  }
+}
+
+/* cache the input */
+var input = document.getElementById("password");
+
+/* call passwordCheck function when the Enter key is released */
+input.onkeyup = function (e) {
+   if (e.which == 13) passwordCheck();
+};
+
+/* prevent the form from submitting and disappearing before password input is checked */
+input.parentElement.onsubmit = function () {
+   return false;
+};
+
+// checks if the password input is correct
+function passwordCheck() {
+  var password = document.getElementById("password").value;
+  if(password=="decision"){
+    window.open ('analytic-editor.html','_self')
+  }
+  else{
+    input.blur();
+    document.getElementById('password').value = '';
+    document.getElementById("password").classList.add('error');
+  }
+}
+
+
+
+
+// MODAL 2 - GOVINI DESIGN SYSTEM
+
+// get the modal
+var modal2 = document.getElementById("myModal2");
+
+// get the govini design system card that opens the modal
+var card2 = document.getElementById("govini-design-system");
+
+// get the <span> element that closes the modal
+var span2 = document.getElementsByClassName("close2")[0];
+
+// when the user clicks on the govini design system card, open the modal and autofocus the input box
+card2.onclick = function() {
+  modal2.style.display = "block";
+  document.getElementById("password2").focus();
+}
+
+// when the user clicks on <span> (x), close the modal, reset the error styling, and remove any entered value form the input box
+span2.onclick = function() {
+  modal2.style.display = "none";
+  document.getElementById("password2").classList.remove('error');
+  document.getElementById('password2').value = '';
+}
+
+// when the user clicks anywhere outside of the modal, close the modal, reset the error styling, and remove any entered value form the input box
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+    document.getElementById("password2").classList.remove('error');
+    document.getElementById('password2').value = '';
+  }
+}
+
+/* cache the input */
+var input2 = document.getElementById("password2");
+
+/* call passwordCheck function when the Enter key is released */
+input2.onkeyup = function (e) {
+   if (e.which == 13) passwordCheck2();
+};
+
+/* prevent the form from submitting and disappearing before password input is checked */
+input2.parentElement.onsubmit = function () {
+   return false;
+};
+
+// checks if the password input is correct
+function passwordCheck2() {
+  var password2 = document.getElementById("password2").value;
+  if(password2=="decision"){
+    window.open ('govini-design-system.html','_self')
+  }
+  else{
+    input2.blur();
+    document.getElementById('password2').value = '';
+    document.getElementById("password2").classList.add('error');
+  }
+}
+
+
+
+function showMore(){
+    // //removes the link
+    // var link = document.getElementById("link");
+    // link.remove();
+    // flips the arrow
+
+    var link = document.getElementById("link")
+
+
+    link.remove();
+    document.getElementById("interests").style.display = "grid";
+
+    // if (link.innerHTML == "LEARN MORE ↓") {
+    //     link.innerHTML = "LEARN MORE ↑";
+    //     document.getElementById("interests").style.display = "grid";
+    //   } else if (link.innerHTML == "LEARN MORE ↑") {
+    //     link.innerHTML = "LEARN MORE ↓";
+    //     document.getElementById("interests").style.display = "none";
+    //   }
+
+}

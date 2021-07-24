@@ -14,7 +14,6 @@
         url('fonts/Canela-Medium.svg#Canela-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
 }
 @font-face {
     font-family: 'Calibre';
@@ -26,7 +25,6 @@
         url('fonts/Calibre-Regular.svg#Calibre-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 @font-face {
     font-family: 'Calibre';
@@ -38,7 +36,6 @@
         url('fonts/Calibre-Medium.svg#Calibre-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
 }
 @font-face {
     font-family: 'Lato';
@@ -50,7 +47,6 @@
         url('fonts/Lato-Regular.svg#Lato-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 
@@ -152,7 +148,7 @@ b {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px; /* or 150% */
-    color: #3B4950; /* black-3 */
+    color: #1A2A33; /* black-4 */
     margin: 0px;
 }
 
@@ -435,6 +431,10 @@ img {
 
 .design .one .two > * + * { margin-top: 48px;}
 
+.design .one img {
+    cursor: zoom-in;
+}
+
 .design .two img {
     width: 75%;
     margin: 0px auto 0px auto;
@@ -444,6 +444,7 @@ img {
 .design .three img {
     margin: 24px 0px 0px 0px;
     border-radius: 10px;
+    cursor: zoom-in;
 }
 
 .design .six {
@@ -514,7 +515,7 @@ img {
     justify-content: center;
 }
 
-/* .other .one > * + * { margin-left: 28px;} */
+.other .one > * + * { margin-left: 28px;}
 
 .other .one a {
     font-family: Canela;
@@ -661,7 +662,7 @@ figcaption {
 
 /* unvisited link */
 p a:link {
-    color: #005ea2;
+    color: #005ea2; 
 }
 
 /* visited link */
@@ -679,6 +680,26 @@ p a:active {
     color: #162e51;
 }
 
+
+/* stop horizontal scrolling caused by gradient color background */
+html {
+    overflow-x: hidden;
+}
+
+
+/* scrim for full-screen images */
+.scrim {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.75); /* Black w/ opacity */
+}
 
 
 
@@ -796,7 +817,7 @@ p a:active {
         font-weight: 600;
         font-size: 20px;
         line-height: 30px; /* or 150% */
-        color: #3B4950; /* black-3 */
+        color: #1A2A33; /* black-4 */
         margin: 0px;
     }
 
@@ -1134,7 +1155,7 @@ p a:active {
         font-weight: 600;
         font-size: 22px;
         line-height: 33px; /* or 150% */
-        color: #3B4950; /* black-3 */
+        color: #1A2A33; /* black-4 */
         margin: 0px;
     }
 
@@ -1235,7 +1256,7 @@ p a:active {
 
     .cover .nine {
         width: 175px;
-        margin: 0px 0px 6px 150px;
+        margin: 0px 0px 6px 135px;
     }
 
     .cover .ten {
@@ -1305,6 +1326,7 @@ p a:active {
     .research img {
         margin: 24px 0px 0px 0px;
         border-radius: 10px;
+        cursor: zoom-in;
     }
 
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="html">
 
 <head>
     <meta charset="UTF-8">
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/modern-normalize.css">
     <link rel="stylesheet" href="css/style-analytic-editor.css">
     <script src="js/script-analytic-editor.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -66,7 +67,7 @@
             <h2>Introduction</h2>
             <div class="one">
                 <h5>OVERVIEW</h5>
-                <p>Govini’s Decision Science Platform is a data analytics web app used throughout the U.S. government to better direct investments and make decisions.</p>
+                <p>Govini’s Decision Science Platform is a data analytics web app used throughout the U.S. government to better direct investments and make decisions. Government personnel rely on analytics that condense the data found in this platform to communicate key insights to their teams. </p>
                 <br>
                 <p class="disclaimer"><i>(Disclaimer: in the context of this case study the term “analytic” refers to any data visualization.)</i></p>
             </div>
@@ -92,7 +93,7 @@
             </div>
             <div class="four">
                 <h5>GOAL</h5>
-                <p>Our ongoing focus was to get users to stay longer and accomplish more within the platform. We aimed to solve issues with analytic workflows by releasing this feature before the end of Q2 2021.<br><br>We believed that the Decision Science Platform would be utilized more if government employees could successfully create and edit analytics within the platform. We hoped this feature would also increase our key engagement metric (Weekly Active Users) and strengthen our sales pitch.</p>
+                <p>Our ongoing focus was to get users to stay longer and accomplish more within the platform. We aimed to solve issues with analytic workflows by releasing this feature before the end of Q2 2021.<br><br>We believed that the Decision Science Platform would be utilized more if government employees could successfully create and edit analytics within the platform. We hoped this feature would also <b>increase our key engagement metric (Weekly Active Users)</b> and strengthen our sales pitch.</p>
             </div>
         </div>
 
@@ -100,11 +101,8 @@
             <div class="one">
                 <h2>Research</h2>
                 <div class="three">
-                    <p>Our typical user is a government analyst who needs to utilize increasing amounts of data to aid in national security decision making.</p>
-                    <br>
-                    <br>
-                    <h5>WORKFLOW</h5>
-                    <p>Understanding the problems with our users' current analytic workflow was key to determining our solution. Govini’s implementation specialists work with our government users day-to-day, making them an ideal proxy. After reviewing feedback, requirements, and solutions with these internal users, two main pain points emerged:</p>
+                    <h5>PAIN POINTS</h5>
+                    <p>Understanding the problems with our users' current analytic workflow was key to determining our solution. Past research had shown that we have 2 main types of users: creators and consumers.<br><br>Our creator persona, dubbed GS-9 Jerry, is a typical government analyst who needs to create content to aid in national security decision making. After reviewing feedback, requirements, and solutions with users matching this persona, two main pain points emerged:</p>
                     <br>
                     <ul>
                         <li><i>“The data searches I run don’t give me what I need. I have to export the data, bring it into Tableau, and create charts there. This really slows me down.”</i></li>
@@ -112,8 +110,8 @@
                         <li><i>“I literally have to export the default analytics as PNGs and go into Microsoft Paint to change the colors or paste over the legends or add titles.”</i></li>
                     </ul>
                     <figure>
-                        <img src="images/analytic-editor/research.png" alt="user research">
-                        <figcaption>Feedback session with external user</figcaption>
+                        <img zoomable src="images/analytic-editor/research.png" alt="user research">
+                        <figcaption>Feedback session with a GS-9 Jerry</figcaption>
                       </figure>
                 </div>
             </div>
@@ -128,17 +126,26 @@
                     <div class="three">
                         <p><b>Mockups</b></p>
                         <div class="four">
-                            <img src="images/analytic-editor/low-fidelity-1.png" alt="sketch of analytic editor">
-                            <img src="images/analytic-editor/low-fidelity-2.png" alt="wireframe of analytic editor">
+                            <img zoomable src="images/analytic-editor/low-fidelity-1.png" alt="sketch of analytic editor">
+                            <img zoomable src="images/analytic-editor/low-fidelity-2.png" alt="wireframe of analytic editor">
                             <!-- <img src="images/analytic-editor/low-fidelity-3.png" alt="high-fidelity solution for analytic editor"> -->
                         </div>
                     </div>
                     <div class="five">
                         <p><b>Final Screens</b></p>
                         <div class="six">
-                            <img src="images/analytic-editor/high-fidelity-1.png" alt="final data search screen">
-                            <img src="images/analytic-editor/high-fidelity-2.png" alt="final analytics tab screen">
-                            <img src="images/analytic-editor/high-fidelity-3.png" alt="final analytic editor screen">
+                            <figure>
+                                <img zoomable src="images/analytic-editor/high-fidelity-1.png" alt="final data search screen">
+                                <figcaption>1. Data view of a custom search</figcaption>
+                              </figure>
+                              <figure>
+                                <img zoomable src="images/analytic-editor/high-fidelity-2.png" alt="final analytics tab screen">
+                                <figcaption>2. Option to create an analytic from the data</figcaption>
+                              </figure>
+                              <figure>
+                                <img zoomable src="images/analytic-editor/high-fidelity-3.png" alt="final analytic editor screen">
+                                <figcaption>3. Cutomize variables for your analytic</figcaption>
+                              </figure>
                         </div>
                     </div>
                 </div>
@@ -158,11 +165,11 @@
                     </div>
                     <div class="twelve">
                         <p><b>Variables:</b><br>Variables are surfaced to control what data is visualized. Nivo.rocks, a React d3 library, provided the bulk of this functionality.</p>
-                        <img src="images/analytic-editor/feature-2.png" alt="variable options">
+                        <img src="images/analytic-editor/feature-2.gif" alt="variable options">
                     </div>
                     <div class="thirteen">
                         <p><b>Reorder:</b><br>Curate the order of your analytics before exporting the page as a PDF for use in reports or presentations.</p>
-                        <img src="images/analytic-editor/feature-3.png" alt="drag and drog function">
+                        <img src="images/analytic-editor/feature-3.gif" alt="drag and drog function">
                     </div>
                 </div>
 
@@ -171,7 +178,7 @@
 
         <div class ="conclusion">
             <div class="one">
-                <h2>Conclusion</h2>
+                <h2>Insights</h2>
                 <div class="two">
                     <h5>OBSTACLES</h5>
                     <p>During UAT testing, I discovered we lacked a variable input reset. So if “Year” was selected for the x-axis of a scatter plot, there wasn’t a way to clear this choice. The engineering team and I worked ad-hoc to solve this issue by adding a “None” option to the input dropdown. While this addition wasn’t in the initial release, it was prioritized for the following sprint.<br><br>Real-world constraints ultimately determine a feature’s fate:</p>
@@ -184,7 +191,7 @@
                 </div>
                 <div class="three">
                     <h5>SUCCESS METRICS</h5>
-                    <p>Despite bugs found by our QA team that pushed this release to the beginning of Q3, this feature is now live in the Decision Science Platform.<br><br>We’ve seen an increase by 43% in users accessing analytics attached to their data searches. Additionally, our Weekly Active Users (WAU) has grown by 16% and 12% following the release of analytic editor.</p>
+                    <p>Despite bugs found by our QA team that pushed this release to the beginning of Q3, this feature is now live in the Decision Science Platform.<br><br>We’ve seen an increase by 43% in users accessing analytics attached to their data searches. Additionally, <b>our Weekly Active Users (WAU) has grown by 16% and 12%</b> following the release of analytic editor.</p>
                 </div>
             </div>
         </div>
