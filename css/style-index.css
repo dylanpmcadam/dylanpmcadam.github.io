@@ -737,6 +737,7 @@ p a:active {
     grid-column: 1 / 3;
     position: relative;
     top: -1px;
+    white-space: nowrap;
 }
 .learn-more:link {
     text-decoration: none;
