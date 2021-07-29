@@ -1184,6 +1184,7 @@ text-decoration: none;
         margin-bottom: 0px;
         display: flex;
         align-items: center;
+        margin-right: 8px;
     }
 
     #blurb h5 {
