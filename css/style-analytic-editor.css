@@ -317,7 +317,7 @@ img {
     grid-row: 2 / 3;
     width: 100%;
     height: auto;
-    background: linear-gradient(180deg, #DFE5F1 0%, #E6F1F2 100%);
+    background: linear-gradient(180deg, #EBE6F2 0%, #E6EEF2 100%);
     border-radius: 10px;
 }
 
@@ -414,7 +414,7 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 16px;
-    background: linear-gradient(180deg, #DFE5F1 0%, #E6F1F2 100%);
+    background: linear-gradient(180deg, #EBE6F2 0%, #E6EEF2 100%);
     width: 100vw;
     position: relative;
     left: 50%;
@@ -522,7 +522,7 @@ img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 16px;
-    background: linear-gradient(180deg, #DFE5F1 0%, #E6F1F2 100%);
+    background: linear-gradient(180deg, #EBE6F2 0%, #E6EEF2 100%);
     width: 100vw;
     position: relative;
     left: 50%;
@@ -565,7 +565,6 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-right: 30px;
 }
 
 .other .one > * + * { margin-left: 28px;}
@@ -595,16 +594,20 @@ text-decoration: none;
 text-decoration: none;
 }
 
+
 .other .one a:hover {
     color: #1A2A33; /* black-4 */
     transform: scale(1.02);
     transition: all 0.5s ease-out;
 }
 .other .one a:nth-child(1):hover {
-    color: #BF4F16;
+    color: #1258BB;
 }
 .other .one a:nth-child(2):hover {
-    color: #6A468D;
+    color: #286B08;
+}
+.other .one a:nth-child(3):hover {
+    color: #BF4F16;
 }
 
 
@@ -635,7 +638,7 @@ text-decoration: none;
 }
 
 /* close button */
-.close, .close2 {
+.close, .close2, .close3 {
     color: #aaa;
     font-size: 28px;
     position: absolute;
@@ -643,13 +646,13 @@ text-decoration: none;
     right: 12px;
 }
 
-.close:hover, .close:focus, .close2:hover, .close2:focus {
+.close:hover, .close:focus, .close2:hover, .close2:focus, .close3:hover, .close3:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
-.modal-content .password, .modal-content .password2 {
+.modal-content .password, .modal-content .password2, .modal-content .password3 {
     width: 100%;
     font-family: Lato;
     font-style: normal;
@@ -1096,9 +1099,6 @@ html {
         grid-column: 1 / 9;
     }
     .other .one > * + * { margin-left: 50px;}
-    .other .one {
-        padding-right: 80px;
-    }
     .other .one a {
         font-size: 24px;
         line-height: 24px; /* identical to box height */
@@ -1115,7 +1115,7 @@ html {
         margin: 0px 0px 24px 0px;
     }
 
-    .modal-content .password, .modal-content .password2 {
+    .modal-content .password, .modal-content .password2, .modal-content .password3 {
         font-size: 18px;
         line-height: 18px;
     }

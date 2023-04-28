@@ -1,1 +1,240 @@
-var _0x5b52=['addClass','img[zoomable]','1119687enBykh','off','blur','keyup.modal-close','parentElement','109857rDYWBj','logo','classList','_self','1622158NfcjCy','src','511937SRiVhP','url(','attr','close2','images/logo-smooth.svg','css','201931TEYHhh','<div\x20class=\x22content\x22>','govini-design-system','onkeyup','50%','95%','contain','appendTo','body','5uOZLVX','which','onclick','img-enlargeable','3UfmGCX','display','open','1253255OpnGCo','style','none',')\x20no-repeat\x20center','click','block','remove','error','documentElement','getElementById','key','focus','password2','addEventListener','zoom-out','myModal2','govini-design-system.html','value','143190ZPeFHO','Escape','getElementsByClassName','decision','hidden','add'];var _0x16bfaa=_0x2955;(function(_0x3b0614,_0x491311){var _0xa60070=_0x2955;while(!![]){try{var _0x5f5731=parseInt(_0xa60070(0x161))+-parseInt(_0xa60070(0x150))+-parseInt(_0xa60070(0x13e))+-parseInt(_0xa60070(0x163))+parseInt(_0xa60070(0x158))+-parseInt(_0xa60070(0x169))*-parseInt(_0xa60070(0x13b))+-parseInt(_0xa60070(0x137))*parseInt(_0xa60070(0x15d));if(_0x5f5731===_0x491311)break;else _0x3b0614['push'](_0x3b0614['shift']());}catch(_0x2bbed2){_0x3b0614['push'](_0x3b0614['shift']());}}}(_0x5b52,0xd9473));function _0x2955(_0x2dedc1,_0x2c36b7){return _0x2955=function(_0x5b52b2,_0x2955bb){_0x5b52b2=_0x5b52b2-0x130;var _0x22598d=_0x5b52[_0x5b52b2];return _0x22598d;},_0x2955(_0x2dedc1,_0x2c36b7);}var logo=document['getElementById'](_0x16bfaa(0x15e));logo[_0x16bfaa(0x14b)]('mouseover',function(){var _0x3f7b56=_0x16bfaa;this[_0x3f7b56(0x162)]=_0x3f7b56(0x167);}),logo[_0x16bfaa(0x14b)]('mouseout',function(){var _0x448bb4=_0x16bfaa;this[_0x448bb4(0x162)]='images/logo.svg';});var modal2=document[_0x16bfaa(0x147)](_0x16bfaa(0x14d)),card2=document[_0x16bfaa(0x147)](_0x16bfaa(0x130)),span2=document[_0x16bfaa(0x152)](_0x16bfaa(0x166))[0x0];card2[_0x16bfaa(0x139)]=function(){var _0x454bff=_0x16bfaa;modal2[_0x454bff(0x13f)][_0x454bff(0x13c)]=_0x454bff(0x143),document[_0x454bff(0x147)](_0x454bff(0x14a))[_0x454bff(0x149)]();},span2[_0x16bfaa(0x139)]=function(){var _0x172abe=_0x16bfaa;modal2[_0x172abe(0x13f)][_0x172abe(0x13c)]=_0x172abe(0x140),document[_0x172abe(0x147)]('password2')[_0x172abe(0x15f)][_0x172abe(0x144)](_0x172abe(0x145)),document[_0x172abe(0x147)](_0x172abe(0x14a))[_0x172abe(0x14f)]='';},window[_0x16bfaa(0x139)]=function(_0x5b1aa0){var _0x3b0ff7=_0x16bfaa;_0x5b1aa0['target']==modal2&&(modal2[_0x3b0ff7(0x13f)]['display']=_0x3b0ff7(0x140),document[_0x3b0ff7(0x147)](_0x3b0ff7(0x14a))[_0x3b0ff7(0x15f)][_0x3b0ff7(0x144)](_0x3b0ff7(0x145)),document[_0x3b0ff7(0x147)](_0x3b0ff7(0x14a))[_0x3b0ff7(0x14f)]='');};var input2=document[_0x16bfaa(0x147)](_0x16bfaa(0x14a));input2[_0x16bfaa(0x131)]=function(_0x905f6){var _0xfe5ec2=_0x16bfaa;if(_0x905f6[_0xfe5ec2(0x138)]==0xd)passwordCheck2();},input2[_0x16bfaa(0x15c)]['onsubmit']=function(){return![];};function passwordCheck2(){var _0x298a9b=_0x16bfaa,_0x3a0564=document[_0x298a9b(0x147)](_0x298a9b(0x14a))[_0x298a9b(0x14f)];_0x3a0564==_0x298a9b(0x153)?window[_0x298a9b(0x13d)](_0x298a9b(0x14e),_0x298a9b(0x160)):(input2[_0x298a9b(0x15a)](),document['getElementById'](_0x298a9b(0x14a))[_0x298a9b(0x14f)]='',document[_0x298a9b(0x147)]('password2')[_0x298a9b(0x15f)][_0x298a9b(0x155)](_0x298a9b(0x145)));}$(_0x16bfaa(0x157))[_0x16bfaa(0x156)](_0x16bfaa(0x13a))[_0x16bfaa(0x142)](function(){var _0x78ab11=_0x16bfaa,_0x1c663c=$(this)[_0x78ab11(0x165)](_0x78ab11(0x162)),_0x57f642,_0x11327c;function _0x34e876(){var _0x3744b5=_0x78ab11;_0x57f642[_0x3744b5(0x144)](),_0x11327c[_0x3744b5(0x144)](),document[_0x3744b5(0x146)]['removeAttribute'](_0x3744b5(0x13f)),$(_0x3744b5(0x136))[_0x3744b5(0x159)](_0x3744b5(0x15b));}_0x57f642=$('<div\x20class=\x22scrim\x22>')['css']({'display':_0x78ab11(0x143)})[_0x78ab11(0x135)](_0x78ab11(0x136)),_0x11327c=$(_0x78ab11(0x16a))[_0x78ab11(0x168)]({'background':_0x78ab11(0x164)+_0x1c663c+_0x78ab11(0x141),'backgroundSize':_0x78ab11(0x134),'width':_0x78ab11(0x133),'height':'95%','position':'fixed','zIndex':'2','cursor':_0x78ab11(0x14c),'left':_0x78ab11(0x132),'top':_0x78ab11(0x132),'transform':'translate(-50%,\x20-50%)'})[_0x78ab11(0x142)](function(){_0x34e876();})[_0x78ab11(0x135)](_0x78ab11(0x136)),document[_0x78ab11(0x146)][_0x78ab11(0x13f)]['overflowY']=_0x78ab11(0x154),$(_0x78ab11(0x136))['on'](_0x78ab11(0x15b),function(_0x56924e){var _0x49168d=_0x78ab11;_0x56924e[_0x49168d(0x148)]===_0x49168d(0x151)&&_0x34e876();});});
+// on hover the logo will go smooth and return to pixelated when you stop hovering
+var logo = document.getElementById('logo');
+logo.addEventListener('mouseover', function(){
+    this.src = "images/logo-smooth.svg"
+  });
+logo.addEventListener('mouseout', function(){
+    this.src = "images/logo.svg"
+});
+
+
+
+
+
+// MODAL 2 - GOVINI DESIGN SYSTEM
+
+// get the modal
+var modal2 = document.getElementById("myModal2");
+
+// get the govini design system card that opens the modal
+var card2 = document.getElementById("govini-design-system");
+
+// get the <span> element that closes the modal
+var span2 = document.getElementsByClassName("close2")[0];
+
+// when the user clicks on the govini design system card, open the modal and autofocus the input box
+card2.onclick = function() {
+  modal2.style.display = "block";
+  document.getElementById("password2").focus();
+}
+
+// when the user clicks on <span> (x), close the modal, reset the error styling, and remove any entered value form the input box
+span2.onclick = function() {
+  modal2.style.display = "none";
+  document.getElementById("password2").classList.remove('error');
+  document.getElementById('password2').value = '';
+}
+
+// when the user clicks anywhere outside of the modal, close the modal, reset the error styling, and remove any entered value form the input box
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+    document.getElementById("password2").classList.remove('error');
+    document.getElementById('password2').value = '';
+  }
+}
+
+/* cache the input */
+var input2 = document.getElementById("password2");
+
+/* call passwordCheck function when the Enter key is released */
+input2.onkeyup = function (e) {
+   if (e.which == 13) passwordCheck2();
+};
+
+/* prevent the form from submitting and disappearing before password input is checked */
+input2.parentElement.onsubmit = function () {
+   return false;
+};
+
+// checks if the password input is correct
+function passwordCheck2() {
+  var password2 = document.getElementById("password2").value;
+  if(password2=="news"){
+    window.open ('govini-design-system.html','_self')
+  }
+  else{
+    input2.blur();
+    document.getElementById('password2').value = '';
+    document.getElementById("password2").classList.add('error');
+  }
+}
+
+
+
+// MODAL 1 - A/B TESTING
+
+// get the modal
+var modal = document.getElementById("myModal");
+
+// get the a/b testing card that opens the modal
+var card = document.getElementById("ab-testing");
+
+// get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// when the user clicks on the a/b testing card, open the modal and autofocus the input box
+card.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("password").focus();
+}
+
+// when the user clicks on <span> (x), close the modal, reset the error styling, and remove any entered value form the input box
+span.onclick = function() {
+  modal.style.display = "none";
+  document.getElementById("password").classList.remove('error');
+  document.getElementById('password').value = '';
+}
+
+// when the user clicks anywhere outside of the modal, close the modal, reset the error styling, and remove any entered value form the input box
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    document.getElementById("password").classList.remove('error');
+    document.getElementById('password').value = '';
+  }
+}
+
+/* cache the input */
+var input = document.getElementById("password");
+
+/* call passwordCheck function when the Enter key is released */
+input.onkeyup = function (e) {
+   if (e.which == 13) passwordCheck();
+};
+
+/* prevent the form from submitting and disappearing before password input is checked */
+input.parentElement.onsubmit = function () {
+   return false;
+};
+
+// checks if the password input is correct
+function passwordCheck() {
+  var password = document.getElementById("password").value;
+  if(password=="news"){
+    window.open ('ab-testing.html','_self')
+  }
+  else{
+    input.blur();
+    document.getElementById('password').value = '';
+    document.getElementById("password").classList.add('error');
+  }
+}
+
+
+// MODAL 3 - PRODUCT PAGE
+
+// get the modal
+var modal3 = document.getElementById("myModal3");
+
+// get the product page card that opens the modal
+var card3 = document.getElementById("product-page");
+
+// get the <span> element that closes the modal
+var span3 = document.getElementsByClassName("close3")[0];
+
+// when the user clicks on the product page card, open the modal and autofocus the input box
+card3.onclick = function() {
+  modal3.style.display = "block";
+  document.getElementById("password3").focus();
+}
+
+// when the user clicks on <span> (x), close the modal, reset the error styling, and remove any entered value form the input box
+span3.onclick = function() {
+  modal3.style.display = "none";
+  document.getElementById("password3").classList.remove('error');
+  document.getElementById('password3').value = '';
+}
+
+// when the user clicks anywhere outside of the modal, close the modal, reset the error styling, and remove any entered value form the input box
+window.onclick = function(event) {
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+    document.getElementById("password3").classList.remove('error');
+    document.getElementById('password3').value = '';
+  }
+}
+
+/* cache the input */
+var input3 = document.getElementById("password3");
+
+/* call passwordCheck function when the Enter key is released */
+input3.onkeyup = function (e) {
+   if (e.which == 13) passwordCheck3();
+};
+
+/* prevent the form from submitting and disappearing before password input is checked */
+input3.parentElement.onsubmit = function () {
+   return false;
+};
+
+// checks if the password input is correct
+function passwordCheck3() {
+  var password3 = document.getElementById("password3").value;
+  if(password3=="news"){
+    window.open ('product-page.html','_self')
+  }
+  else{
+    input3.blur();
+    document.getElementById('password3').value = '';
+    document.getElementById("password3").classList.add('error');
+  }
+}
+
+
+
+// creates div with scrim background and div with the clicked image to zoom in
+$('img[zoomable]').addClass('img-enlargeable').click(function() {
+
+    var src = $(this).attr('src');
+
+    var scrim;
+
+    var content;
+
+    // esc key goes back to page
+    function removeAll() {
+      scrim.remove();
+      content.remove();
+      document.documentElement.removeAttribute("style");
+      $('body').off('keyup.modal-close');
+    }
+
+    scrim = $('<div class="scrim">').css({
+        display: 'block'
+    }).appendTo('body');
+
+    content = $('<div class="content">').css({
+        background: 'url(' + src + ') no-repeat center',
+        backgroundSize: 'contain',
+        width: '95%',
+        height: '95%',
+        position: 'fixed',
+        zIndex: '2',
+        cursor: 'zoom-out',
+        left: '50%',
+        top: '50%',
+        transform: 'translate(-50%, -50%)'
+    }).click(function() {
+      removeAll();
+    }).appendTo('body');
+
+    document.documentElement.style.overflowY = "hidden";
+
+    // esc key goes back to page
+    $('body').on('keyup.modal-close', function(e) {
+      if (e.key === 'Escape') {
+        removeAll();
+      }
+    });
+  });

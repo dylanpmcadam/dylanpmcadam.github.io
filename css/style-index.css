@@ -132,7 +132,7 @@ h5 {
 #portrait img {
     width: 100%;
     position: absolute;
-    top: -10%;
+    top: -3%;
 }
 
 /* bio */
@@ -221,16 +221,47 @@ h3 {
 }
 
 
+/* product page */
+#product-page {
+    width: 100%;
+    /* height: 407px; */
+    background: linear-gradient(180deg, #DFE5F1 0%, #E6F1F2 100%);
+    border-radius: 10px;
+}
+#product-page img {
+    width: 27%;
+    height: auto;
+    border-radius: 2px;
+    transition: all 0.5s ease-out;
+    object-fit: contain;
+}
+
+
+/* ab testing */
+#ab-testing {
+    width: 100%;
+    height: 407px;
+    background: linear-gradient(180deg, #E0F1E0 0%, #F2F1E6 100%);
+    border-radius: 10px;
+}
+#ab-testing img {
+    width: 274px;
+    height: 235px;
+    border-radius: 2px;
+    transition: all 0.5s ease-out;
+    object-fit: contain;
+}
+
+
 /* analytic editor */
 #analytic-editor {
     width: 100%;
     height: 407px;
-    background: linear-gradient(180deg, #DFE5F1 0%, #E6F1F2 100%);
+    background: linear-gradient(180deg, #EBE6F2 0%, #E6EEF2 100%);
     border-radius: 10px;
 }
 #analytic-editor img {
-    width: 217px;
-    height: 152px;
+    width: 75%;
     border-radius: 2px;
     transition: all 0.5s ease-out;
     object-fit: contain;
@@ -252,20 +283,6 @@ h3 {
     object-fit: contain;
 }
 
-
-/* chew */
-#chew {
-    width: 100%;
-    height: auto;
-    background: linear-gradient(180deg, #EBE6F2 0%, #E6EEF2 100%);
-    border-radius: 10px;
-}
-#chew img {
-    width: 204px;
-    height: 206.51px;
-    border-radius: 2px;
-    transition: all 0.5s ease-out;
-}
 
 
 /* remove link underline for case studies */
@@ -365,7 +382,6 @@ header {
     margin-bottom: -10px;
 }
 
-
 /* INTERESTS spacing */
 #interests {
     display: none;
@@ -401,6 +417,75 @@ header {
     margin-top: 64px;
     margin-bottom: 0px;
 }
+#product-page {
+    margin-top: 0px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+#product-page img {
+    align-self: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+#product-page h4 {
+    color: #91A6C5;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    transition: all 0.5s ease-out;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+#product-page h2 {
+    margin-top: 48px;
+    margin-bottom: 0px;
+    margin-left: 7.5%;
+    transition: all 0.5s ease-out;
+}
+#product-page p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 7.5%;
+    transition: all 0.5s ease-out;
+}
+#ab-testing {
+    margin-top: 0px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+#ab-testing img {
+    align-self: center;
+    margin-top: 8px;
+    margin-bottom: 45px;
+}
+#ab-testing h4 {
+    color: #8DB08D;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    transition: all 0.5s ease-out;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+#ab-testing h2 {
+    margin-top: 48px;
+    margin-bottom: 0px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    transition: all 0.5s ease-out;
+}
+#ab-testing p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 7.5%;
+    transition: all 0.5s ease-out;
+}
 #analytic-editor {
     margin-top: 0px;
     margin-bottom: 24px;
@@ -411,6 +496,17 @@ header {
     align-self: center;
     margin-top: 71px;
     margin-bottom: 76px;
+}
+#analytic-editor h4 {
+    color: #A596C0;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    transition: all 0.5s ease-out;
+    margin-top: 0px;
+    margin-bottom: 16px;
 }
 #analytic-editor h2 {
     margin-top: 48px;
@@ -435,6 +531,17 @@ header {
     margin-top: 8px;
     margin-bottom: 50px;
 }
+#govini-design-system h4 {
+    color: #BD9E92;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    transition: all 0.5s ease-out;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
 #govini-design-system h2 {
     margin-top: 48px;
     margin-bottom: 0px;
@@ -446,30 +553,6 @@ header {
     margin-top: 8px;
     margin-bottom: 0px;
     margin-left: 7.5%;
-    transition: all 0.5s ease-out;
-}
-#chew {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display: flex;
-    flex-direction: column;
-}
-#chew img {
-    align-self: center;
-    margin-top: 61px;
-    margin-bottom: 32.49px;
-}
-#chew h2 {
-    margin-top: 48px;
-    margin-bottom: 0px;
-    margin-left: 7.5%;
-    transition: all 0.5s ease-out;
-}
-#chew p {
-    margin-top: 8px;
-    margin-bottom: 0px;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
     transition: all 0.5s ease-out;
 }
 
@@ -541,20 +624,57 @@ footer svg:hover {
 
 
 /* case study cards change color on hover */
+#product-page:hover h2 {
+    color: #1258BB;;
+}
+#ab-testing:hover h2 {
+    color: #286B08;
+}
 #analytic-editor:hover h2 {
-    color: #1258BB;
-    ;
+    color: #6A468D;
 }
 #govini-design-system:hover h2 {
     color: #BF4F16;
 }
-#chew:hover h2 {
-    color: #6A468D;
-    ;
-}
 
 
 /* case study card content grows on hover */
+#product-page:hover .copy h4 {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#product-page:hover .copy h2 {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#product-page:hover .copy p {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#product-page:hover img {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#ab-testing:hover .copy h4 {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#ab-testing:hover .copy h2 {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#ab-testing:hover .copy p {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#ab-testing:hover img {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
+#analytic-editor:hover .copy h4 {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
 #analytic-editor:hover .copy h2 {
     transform: scale(1.02);
     transition: all 0.5s ease-out;
@@ -567,6 +687,10 @@ footer svg:hover {
     transform: scale(1.02);
     transition: all 0.5s ease-out;
 }
+#govini-design-system:hover .copy h4 {
+    transform: scale(1.02);
+    transition: all 0.5s ease-out;
+}
 #govini-design-system:hover .copy h2 {
     transform: scale(1.02);
     transition: all 0.5s ease-out;
@@ -576,18 +700,6 @@ footer svg:hover {
     transition: all 0.5s ease-out;
 }
 #govini-design-system:hover img {
-    transform: scale(1.02);
-    transition: all 0.5s ease-out;
-}
-#chew:hover .copy h2 {
-    transform: scale(1.02);
-    transition: all 0.5s ease-out;
-}
-#chew:hover .copy p {
-    transform: scale(1.02);
-    transition: all 0.5s ease-out;
-}
-#chew:hover img {
     transform: scale(1.02);
     transition: all 0.5s ease-out;
 }
@@ -620,7 +732,7 @@ footer svg:hover {
 }
 
 /* close button */
-.close, .close2 {
+.close, .close2, .close3, .close4 {
     color: #aaa;
     font-size: 28px;
     position: absolute;
@@ -628,13 +740,13 @@ footer svg:hover {
     right: 12px;
 }
 
-.close:hover, .close:focus, .close2:hover, .close2:focus {
+.close:hover, .close:focus, .close2:hover, .close2:focus, .close3:hover, .close3:focus, .close4:hover, .close4:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
-.modal-content .password, .modal-content .password2 {
+.modal-content .password, .modal-content .password2, .modal-content .password3, .modal-content .password4 {
     width: 100%;
     font-family: Lato, sans-serif;
     font-style: normal;
@@ -644,7 +756,7 @@ footer svg:hover {
     color: #3B4950; /* black-3 */
 }
 
-.modal-content .password::placeholder, .modal-content .password2::placeholder {
+.modal-content .password::placeholder, .modal-content .password2::placeholder, modal-content .password3::placeholder, modal-content .password4::placeholder {
     color: #A3A9AD; /* black-1 */
 }
 
@@ -722,43 +834,20 @@ p a:active {
 
 
 
-
 .learn-more {
     font-family: Calibre, sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase; /* black-3 */
-    color: #3B4950;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: normal;
     transition: all 0.5s ease-out;
-    margin-top: 16px;
     grid-column: 1 / 3;
     position: relative;
     top: -1px;
     white-space: nowrap;
+    text-decoration: underline;
+    margin-left: 4px;
 }
-.learn-more:link {
-    text-decoration: none;
-}
-.learn-more:visited {
-text-decoration: none;
-}
-.learn-more:hover {
-text-decoration: none;
-}
-.learn-more:active {
-text-decoration: none;
-}
-.learn-more:hover {
-    opacity: 0.5;
-    transition: all 0.5s ease-out;
-}
-.learn-more:link {
-    color: #3B4950;
-}
-
 
 
 
@@ -924,6 +1013,66 @@ text-decoration: none;
         font-size: 32px;
         line-height: 32px; /* identical to box height */
     }
+
+    #product-page {
+        display: flex;
+        /* height: 272px; */
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #product-page img {
+        margin: 24px 8% 24px 0;
+        width: 18%;
+    }
+    #product-page .copy {
+        margin-left: 8%;
+    }
+    #product-page .copy h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        font-size: 32px;
+        line-height: 32px; /* identical to box height */
+    }
+    #product-page .copy p {
+        margin-left: 0%;
+        font-size: 20px;
+        line-height: 30px; /* or 150% */
+    }
+
+    #ab-testing {
+        display: flex;
+        height: 272px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #ab-testing img {
+        margin-left: 48px;
+        margin-right: 40px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        transition: all 0.5s ease-out;
+    }
+    #ab-testing .copy {
+        margin-right: 16%;
+        order: 1;
+    }
+    #ab-testing .copy h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        font-size: 32px;
+        line-height: 41.6px; /* 130% */
+        margin-right: 0;
+    }
+    #ab-testing .copy p {
+        margin-left: 0%;
+        font-size: 20px;
+        line-height: 30px; /* or 150% */
+    }
+
     #analytic-editor {
         display: flex;
         height: 272px;
@@ -935,6 +1084,7 @@ text-decoration: none;
         margin-right: 8%;
         margin-top: 0px;
         margin-bottom: 0px;
+        width: 40%;
     }
     #analytic-editor .copy {
         margin-left: 8%;
@@ -984,35 +1134,6 @@ text-decoration: none;
         line-height: 30px; /* or 150% */
     }
 
-    #chew {
-        display: flex;
-        height: 272px;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    #chew img {
-        margin-right: 8%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        transition: all 0.5s ease-out;
-    }
-    #chew .copy {
-        margin-left: 8%;
-    }
-    #chew .copy h2 {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 0%;
-        font-size: 32px;
-        line-height: 32px; /* identical to box height */
-    }
-    #chew .copy p {
-        margin-left: 0%;
-        font-size: 20px;
-        line-height: 30px; /* or 150% */
-        margin-right: 0;
-    }
 
 
     footer {
@@ -1078,7 +1199,7 @@ text-decoration: none;
         margin: 0px 0px 24px 0px;
     }
 
-    .modal-content .password, .modal-content .password2 {
+    .modal-content .password, .modal-content .password2, .modal-content .password3, .modal-content .password4 {
         font-size: 18px;
         line-height: 18px;
     }
@@ -1095,8 +1216,7 @@ text-decoration: none;
 
 
     .learn-more {
-        font-size: 14px;
-        line-height: 14px;
+        font-size: 20px;
         grid-column: 1 / 4;
     }
 
@@ -1230,6 +1350,73 @@ text-decoration: none;
     #case-studies {
         margin-bottom: 0px;
     }
+
+    #product-page {
+        display: flex;
+        height: 408px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    #product-page img {
+        margin-right: 8.11%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 170px;
+        height: auto;
+    }
+    #product-page .copy {
+        margin-left: 8.11%;
+    }
+    #product-page .copy h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        font-size: 45px;
+        line-height: 45px; /* identical to box height */
+    }
+    #product-page .copy p {
+        margin-left: 0%;
+        margin-top: 16px;
+        font-size: 22px;
+        line-height: 33px; /* or 150% */
+    }
+
+    #ab-testing {
+        display: flex;
+        height: 408px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    #ab-testing img {
+        margin-left: 72px;
+        margin-right: 8px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 325px;
+        height: auto;
+    }
+    #ab-testing .copy {
+        margin-right: 13.78%;
+        order: 1;
+    }
+    #ab-testing .copy h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        font-size: 45px;
+        line-height: 45px; /* identical to box height */
+    }
+    #ab-testing .copy p {
+        margin-left: 0px;
+        margin-top: 16px;
+        font-size: 22px;
+        line-height: 33px; /* identical to box height, or 150% */
+    }
+
     #analytic-editor {
         display: flex;
         height: 408px;
@@ -1296,37 +1483,7 @@ text-decoration: none;
         line-height: 33px; /* identical to box height, or 150% */
     }
 
-    #chew {
-        display: flex;
-        height: 408px;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    #chew img {
-        margin-right: 5.33%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        width: 343px;
-        height: 343px;
-    }
-    #chew .copy {
-        margin-left: 8.11%;
-    }
-    #chew .copy h2 {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 0%;
-        font-size: 45px;
-        line-height: 45px; /* identical to box height */
-    }
-    #chew .copy p {
-        margin-left: 0%;
-        margin-top: 16px;
-        font-size: 22px;
-        line-height: 33px; /* identical to box height, or 150% */
-    }
-
+   
 
     /* footer styling and spacing */
     footer hr {
@@ -1344,8 +1501,7 @@ text-decoration: none;
 
 
     .learn-more {
-        font-size: 14px;
-        line-height: 14px;
+        font-size: 22px;
         grid-column: 1 / 4;
     }
 

@@ -1,1 +1,239 @@
-var _0x4f34=['password','display','keyup.modal-close','mouseout','myModal','src','appendTo','50%','images/logo-smooth.svg','getElementById','attr','mouseover','428024ZcFTYN','none','overflowY','<div\x20class=\x22content\x22>','27191MQFAMc','target','key','zoom-out','which','795931FEfvVb','removeAttribute','3128633sVjOQt','onclick',')\x20no-repeat\x20center','value','img-enlargeable','style','939401QRopgP','block','hidden','addClass','click','logo','onsubmit','classList','remove','documentElement','onkeyup','Escape','off','17ufteNj','88913DPjUrC','analytic-editor','95%','close','5NmepwD','blur','translate(-50%,\x20-50%)','<div\x20class=\x22scrim\x22>','546912GXyKbx','fixed','body','error','url('];var _0x54d2af=_0x1e3e;(function(_0x792184,_0x18adec){var _0x645798=_0x1e3e;while(!![]){try{var _0x135c96=-parseInt(_0x645798(0x1f7))*-parseInt(_0x645798(0x1dd))+parseInt(_0x645798(0x1fc))*parseInt(_0x645798(0x1f8))+parseInt(_0x645798(0x1ea))+parseInt(_0x645798(0x1d9))+parseInt(_0x645798(0x1e2))+parseInt(_0x645798(0x200))+-parseInt(_0x645798(0x1e4));if(_0x135c96===_0x18adec)break;else _0x792184['push'](_0x792184['shift']());}catch(_0xa53260){_0x792184['push'](_0x792184['shift']());}}}(_0x4f34,0x773ff));var logo=document[_0x54d2af(0x20e)](_0x54d2af(0x1ef));function _0x1e3e(_0x42a542,_0x5e6f9f){return _0x1e3e=function(_0x4f34d5,_0x1e3e39){_0x4f34d5=_0x4f34d5-0x1d7;var _0x4565bb=_0x4f34[_0x4f34d5];return _0x4565bb;},_0x1e3e(_0x42a542,_0x5e6f9f);}logo['addEventListener'](_0x54d2af(0x1d8),function(){var _0x2454e9=_0x54d2af;this[_0x2454e9(0x20a)]=_0x2454e9(0x20d);}),logo['addEventListener'](_0x54d2af(0x208),function(){this['src']='images/logo.svg';});var modal=document[_0x54d2af(0x20e)](_0x54d2af(0x209)),card=document['getElementById'](_0x54d2af(0x1f9)),span=document['getElementsByClassName'](_0x54d2af(0x1fb))[0x0];card[_0x54d2af(0x1e5)]=function(){var _0x24342d=_0x54d2af;modal[_0x24342d(0x1e9)][_0x24342d(0x206)]=_0x24342d(0x1eb),document[_0x24342d(0x20e)]('password')['focus']();},span[_0x54d2af(0x1e5)]=function(){var _0x24f79b=_0x54d2af;modal[_0x24f79b(0x1e9)][_0x24f79b(0x206)]=_0x24f79b(0x1da),document[_0x24f79b(0x20e)](_0x24f79b(0x205))['classList']['remove'](_0x24f79b(0x203)),document[_0x24f79b(0x20e)](_0x24f79b(0x205))[_0x24f79b(0x1e7)]='';},window['onclick']=function(_0x4499af){var _0x4aafb1=_0x54d2af;_0x4499af[_0x4aafb1(0x1de)]==modal&&(modal[_0x4aafb1(0x1e9)][_0x4aafb1(0x206)]='none',document[_0x4aafb1(0x20e)]('password')[_0x4aafb1(0x1f1)]['remove'](_0x4aafb1(0x203)),document[_0x4aafb1(0x20e)]('password')[_0x4aafb1(0x1e7)]='');};var input=document[_0x54d2af(0x20e)](_0x54d2af(0x205));input[_0x54d2af(0x1f4)]=function(_0x4d0abe){var _0x7e1382=_0x54d2af;if(_0x4d0abe[_0x7e1382(0x1e1)]==0xd)passwordCheck();},input['parentElement'][_0x54d2af(0x1f0)]=function(){return![];};function passwordCheck(){var _0x56291e=_0x54d2af,_0x106aca=document[_0x56291e(0x20e)](_0x56291e(0x205))['value'];_0x106aca=='decision'?window['open']('analytic-editor.html','_self'):(input[_0x56291e(0x1fd)](),document['getElementById'](_0x56291e(0x205))[_0x56291e(0x1e7)]='',document['getElementById'](_0x56291e(0x205))[_0x56291e(0x1f1)]['add'](_0x56291e(0x203)));}$('img[zoomable]')[_0x54d2af(0x1ed)](_0x54d2af(0x1e8))['click'](function(){var _0x24d08c=_0x54d2af,_0x52156e=$(this)[_0x24d08c(0x1d7)](_0x24d08c(0x20a)),_0x3de8d5,_0x20bf79;function _0x3c6f1a(){var _0x2fcc2b=_0x24d08c;_0x3de8d5[_0x2fcc2b(0x1f2)](),_0x20bf79[_0x2fcc2b(0x1f2)](),document[_0x2fcc2b(0x1f3)][_0x2fcc2b(0x1e3)](_0x2fcc2b(0x1e9)),$('body')[_0x2fcc2b(0x1f6)](_0x2fcc2b(0x207));}_0x3de8d5=$(_0x24d08c(0x1ff))['css']({'display':_0x24d08c(0x1eb)})[_0x24d08c(0x20b)]('body'),_0x20bf79=$(_0x24d08c(0x1dc))['css']({'background':_0x24d08c(0x204)+_0x52156e+_0x24d08c(0x1e6),'backgroundSize':'contain','width':_0x24d08c(0x1fa),'height':'95%','position':_0x24d08c(0x201),'zIndex':'2','cursor':_0x24d08c(0x1e0),'left':_0x24d08c(0x20c),'top':_0x24d08c(0x20c),'transform':_0x24d08c(0x1fe)})[_0x24d08c(0x1ee)](function(){_0x3c6f1a();})[_0x24d08c(0x20b)](_0x24d08c(0x202)),document[_0x24d08c(0x1f3)]['style'][_0x24d08c(0x1db)]=_0x24d08c(0x1ec),$('body')['on']('keyup.modal-close',function(_0x9aec05){var _0x328f61=_0x24d08c;_0x9aec05[_0x328f61(0x1df)]===_0x328f61(0x1f5)&&_0x3c6f1a();});});
+// on hover the logo will go smooth and return to pixelated when you stop hovering
+var logo = document.getElementById('logo');
+logo.addEventListener('mouseover', function(){
+    this.src = "images/logo-smooth.svg"
+  });
+logo.addEventListener('mouseout', function(){
+    this.src = "images/logo.svg"
+});
+
+
+
+// MODAL 1 - ANALYTIC EDITOR
+
+// get the modal
+var modal = document.getElementById("myModal");
+
+// get the analytic editor card that opens the modal
+var card = document.getElementById("analytic-editor");
+
+// get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// when the user clicks on the analytic editor card, open the modal and autofocus the input box
+card.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("password").focus();
+}
+
+// when the user clicks on <span> (x), close the modal, reset the error styling, and remove any entered value form the input box
+span.onclick = function() {
+  modal.style.display = "none";
+  document.getElementById("password").classList.remove('error');
+  document.getElementById('password').value = '';
+}
+
+// when the user clicks anywhere outside of the modal, close the modal, reset the error styling, and remove any entered value form the input box
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    document.getElementById("password").classList.remove('error');
+    document.getElementById('password').value = '';
+  }
+}
+
+/* cache the input */
+var input = document.getElementById("password");
+
+/* call passwordCheck function when the Enter key is released */
+input.onkeyup = function (e) {
+   if (e.which == 13) passwordCheck();
+};
+
+/* prevent the form from submitting and disappearing before password input is checked */
+input.parentElement.onsubmit = function () {
+   return false;
+};
+
+// checks if the password input is correct
+function passwordCheck() {
+  var password = document.getElementById("password").value;
+  if(password=="news"){
+    window.open ('analytic-editor.html','_self')
+  }
+  else{
+    input.blur();
+    document.getElementById('password').value = '';
+    document.getElementById("password").classList.add('error');
+  }
+}
+
+
+
+// MODAL 2 - A/B TESTING
+
+// get the modal
+var modal2 = document.getElementById("myModal2");
+
+// get the a/b testing card that opens the modal
+var card2 = document.getElementById("ab-testing");
+
+// get the <span> element that closes the modal
+var span2 = document.getElementsByClassName("close2")[0];
+
+// when the user clicks on the a/b testing card, open the modal and autofocus the input box
+card2.onclick = function() {
+  modal2.style.display = "block";
+  document.getElementById("password2").focus();
+}
+
+// when the user clicks on <span> (x), close the modal, reset the error styling, and remove any entered value form the input box
+span2.onclick = function() {
+  modal2.style.display = "none";
+  document.getElementById("password2").classList.remove('error');
+  document.getElementById('password2').value = '';
+}
+
+// when the user clicks anywhere outside of the modal, close the modal, reset the error styling, and remove any entered value form the input box
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+    document.getElementById("password2").classList.remove('error');
+    document.getElementById('password2').value = '';
+  }
+}
+
+/* cache the input */
+var input2 = document.getElementById("password2");
+
+/* call passwordCheck function when the Enter key is released */
+input2.onkeyup = function (e) {
+   if (e.which == 13) passwordCheck2();
+};
+
+/* prevent the form from submitting and disappearing before password input is checked */
+input2.parentElement.onsubmit = function () {
+   return false;
+};
+
+// checks if the password input is correct
+function passwordCheck2() {
+  var password2 = document.getElementById("password2").value;
+  if(password2=="news"){
+    window.open ('ab-testing.html','_self')
+  }
+  else{
+    input2.blur();
+    document.getElementById('password2').value = '';
+    document.getElementById("password2").classList.add('error');
+  }
+}
+
+
+
+// MODAL 3 - PRODUCT PAGE
+
+// get the modal
+var modal3 = document.getElementById("myModal3");
+
+// get the product page card that opens the modal
+var card3 = document.getElementById("product-page");
+
+// get the <span> element that closes the modal
+var span3 = document.getElementsByClassName("close3")[0];
+
+// when the user clicks on the product page card, open the modal and autofocus the input box
+card3.onclick = function() {
+  modal3.style.display = "block";
+  document.getElementById("password3").focus();
+}
+
+// when the user clicks on <span> (x), close the modal, reset the error styling, and remove any entered value form the input box
+span3.onclick = function() {
+  modal3.style.display = "none";
+  document.getElementById("password3").classList.remove('error');
+  document.getElementById('password3').value = '';
+}
+
+// when the user clicks anywhere outside of the modal, close the modal, reset the error styling, and remove any entered value form the input box
+window.onclick = function(event) {
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+    document.getElementById("password3").classList.remove('error');
+    document.getElementById('password3').value = '';
+  }
+}
+
+/* cache the input */
+var input3 = document.getElementById("password3");
+
+/* call passwordCheck function when the Enter key is released */
+input3.onkeyup = function (e) {
+   if (e.which == 13) passwordCheck3();
+};
+
+/* prevent the form from submitting and disappearing before password input is checked */
+input3.parentElement.onsubmit = function () {
+   return false;
+};
+
+// checks if the password input is correct
+function passwordCheck3() {
+  var password3 = document.getElementById("password3").value;
+  if(password3=="news"){
+    window.open ('product-page.html','_self')
+  }
+  else{
+    input3.blur();
+    document.getElementById('password3').value = '';
+    document.getElementById("password3").classList.add('error');
+  }
+}
+
+
+
+// creates div with scrim background and div with the clicked image to zoom in
+$('img[zoomable]').addClass('img-enlargeable').click(function() {
+
+    var src = $(this).attr('src');
+
+    var scrim;
+
+    var content;
+
+    // esc key goes back to page
+    function removeAll() {
+      scrim.remove();
+      content.remove();
+      document.documentElement.removeAttribute("style");
+      $('body').off('keyup.modal-close');
+    }
+
+    scrim = $('<div class="scrim">').css({
+        display: 'block'
+    }).appendTo('body');
+
+    content = $('<div class="content">').css({
+        background: 'url(' + src + ') no-repeat center',
+        backgroundSize: 'contain',
+        width: '95%',
+        height: '95%',
+        position: 'fixed',
+        zIndex: '2',
+        cursor: 'zoom-out',
+        left: '50%',
+        top: '50%',
+        transform: 'translate(-50%, -50%)'
+    }).click(function() {
+      removeAll();
+    }).appendTo('body');
+
+    document.documentElement.style.overflowY = "hidden";
+
+    // esc key goes back to page
+    $('body').on('keyup.modal-close', function(e) {
+      if (e.key === 'Escape') {
+        removeAll();
+      }
+    });
+  });

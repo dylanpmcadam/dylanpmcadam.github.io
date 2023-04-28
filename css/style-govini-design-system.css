@@ -562,7 +562,6 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: -30px;
 }
 
 .other .one > * + * { margin-left: 28px;}
@@ -601,8 +600,12 @@ text-decoration: none;
     color: #1258BB;
 }
 .other .one a:nth-child(2):hover {
+    color: #286B08;
+}
+.other .one a:nth-child(3):hover {
     color: #6A468D;
 }
+
 
 
 
@@ -632,7 +635,7 @@ text-decoration: none;
 }
 
 /* close button */
-.close, .close2 {
+.close, .close2, .close3 {
     color: #aaa;
     font-size: 28px;
     position: absolute;
@@ -640,13 +643,13 @@ text-decoration: none;
     right: 12px;
 }
 
-.close:hover, .close:focus, .close2:hover, .close2:focus {
+.close:hover, .close:focus, .close2:hover, .close2:focus, .close3:hover, .close3:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
-.modal-content .password, .modal-content .password2 {
+.modal-content .password, .modal-content .password2, .modal-content .password3 {
     width: 100%;
     font-family: Lato;
     font-style: normal;
@@ -1061,7 +1064,7 @@ html {
         margin: 0px 0px 24px 0px;
     }
 
-    .modal-content .password, .modal-content .password2 {
+    .modal-content .password, .modal-content .password2, .modal-content .password3 {
         font-size: 18px;
         line-height: 18px;
     }
