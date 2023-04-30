@@ -400,7 +400,7 @@ img {
     grid-row: 3 / 4;
     display: flex;
     flex-direction: column;
-    margin-top: 56px;
+    margin: 0px 0% 0px 0%;
 }
 
 .introduction > * + * { margin-top: 48px;}
@@ -477,6 +477,7 @@ img {
     grid-row: 5 / 6;
     display: flex;
     flex-direction: column;
+    margin: 0px 0% 0px 0%;
 }
 
 .design > * + * { margin-top: 48px;}
@@ -509,7 +510,7 @@ img {
     margin: 0px 0px 8px 0px;
 }
 
-.design .six, .design .seven, .design .eight {
+.design .six, .design .seven, .design .eight, .design .fourteen, .design .sixteen {
     width: 75%;
     display: flex;
     margin: 0px auto 0px auto;
@@ -540,11 +541,11 @@ img {
     margin-top: 48px;
 }
 
-.design .fifteen img {
+/* .design .fifteen img {
     width: 350px;
     display: flex;
     margin: 8px auto 0px auto;
-}
+} */
 
 
 
@@ -568,7 +569,7 @@ img {
     grid-column: 1 / 5;
     display: flex;
     flex-direction: column;
-    margin: 56px 7% 56px 7%;
+    margin: 56px 5% 56px 5%;
 }
 
 .conclusion .one > * + * { margin-top: 48px;}
@@ -1057,6 +1058,10 @@ html {
     .research {
         grid-column: 1 / 9;
     }
+    .research .one {
+        grid-column: 1 / 9;
+        margin: 56px 2.66% 56px 2.66%;
+    }
 
 
 
@@ -1107,12 +1112,13 @@ html {
     }
     /* .design .eight .ten .twelve > * + * { margin-right: 56px;} */
     .design .twelve img {
-        width: 50%;
+        width: 350px;
+        height: auto;
     }
     .design .thirteen {
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        align-items: start;
     }
     .design .eight .ten .thirteen > * + * { margin-left: 56px;}
     .design .thirteen img {
@@ -1131,6 +1137,10 @@ html {
     .design .six, .design .seven, .design .eight {
         width: 60%;
     }
+    .design .sixteen {
+        width: 350px;
+        height: auto;
+    }
 
 
 
@@ -1142,6 +1152,10 @@ html {
     }
     .conclusion img {
         width: 100%;
+    }
+    .conclusion .one {
+        grid-column: 1 / 9;
+        margin: 56px 2.66% 56px 2.66%;
     }
 
 
@@ -1399,6 +1413,7 @@ html {
         grid-row: 3 / 4;
         display: flex;
         flex-direction: column;
+        margin: 56px 0% 56px 0%;
     }
 
     .introduction > * + * { margin-top: 64px;}
@@ -1444,6 +1459,7 @@ html {
     /* design */
     .design {
         grid-column: 1 / 13;
+        margin: 56px 0% 56px 0%;
     }
     .design > * + * { margin-top: 64px;}
     .design .two {
