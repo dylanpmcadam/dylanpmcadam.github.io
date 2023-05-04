@@ -1298,7 +1298,7 @@ p a:active {
 
     #blurb h1 {    
         grid-column: 1 / 9;
-        font-size: 57px;
+        font-size: 56px;
         line-height: 74.1px; /* or 130% */
         margin-top: 0px;
         margin-bottom: 0px;
