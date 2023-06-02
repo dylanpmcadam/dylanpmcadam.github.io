@@ -238,3 +238,52 @@ $('img[zoomable]').addClass('img-enlargeable').click(function() {
       }
     });
   });
+
+
+
+
+// creates div with scrim background and div with the clicked video to zoom in
+$('video[zoomable]').addClass('video-enlargeable').click(function() {
+
+  var src = $(this).attr('src');
+
+  var scrim;
+
+  var content;
+
+  // esc key goes back to page
+  function removeAll() {
+    scrim.remove();
+    content.remove();
+    document.documentElement.removeAttribute("style");
+    $('body').off('keyup.modal-close');
+  }
+
+  scrim = $('<div class="scrim">').css({
+      display: 'block'
+  }).appendTo('body');
+
+  content = $('<div class="content">').css({
+      background: 'url(' + src + ') no-repeat center',
+      backgroundSize: 'contain',
+      width: '95%',
+      height: '95%',
+      position: 'fixed',
+      zIndex: '2',
+      cursor: 'zoom-out',
+      left: '50%',
+      top: '50%',
+      transform: 'translate(-50%, -50%)'
+  }).click(function() {
+    removeAll();
+  }).appendTo('body');
+
+  document.documentElement.style.overflowY = "hidden";
+
+  // esc key goes back to page
+  $('body').on('keyup.modal-close', function(e) {
+    if (e.key === 'Escape') {
+      removeAll();
+    }
+  });
+});

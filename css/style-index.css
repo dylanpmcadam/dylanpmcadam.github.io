@@ -84,6 +84,11 @@ h5 {
     margin-bottom: 16px;
 }
 
+mark {
+    background-color: #F6F2AF;
+    color: #3b4950;
+}
+
 
 /* logo */
 #logo {
@@ -224,16 +229,26 @@ h3 {
 /* product page */
 #product-page {
     width: 100%;
-    /* height: 407px; */
+    height: 407px;
     background: linear-gradient(180deg, #DFE5F1 0%, #E6F1F2 100%);
     border-radius: 10px;
 }
-#product-page img {
+/* #product-page img {
     width: 27%;
     height: auto;
     border-radius: 2px;
     transition: all 0.5s ease-out;
     object-fit: contain;
+} */
+#product-page #video {
+    width: 100%;
+    overflow: hidden;
+}
+#video-product-page {
+    position: relative;
+    left: -58%;
+    top: 15px;
+    height: 408px;
 }
 
 
@@ -250,6 +265,16 @@ h3 {
     border-radius: 2px;
     transition: all 0.5s ease-out;
     object-fit: contain;
+}
+#ab-testing #video {
+    width: 100%;
+    overflow: hidden;
+}
+#video-ab-testing {
+    position: relative;
+    left: -17%;
+    top: 2px;
+    height: 250px;
 }
 
 
@@ -283,6 +308,10 @@ h3 {
     object-fit: contain;
 }
 
+
+#product-page svg, #ab-testing svg, #analytic-editor svg, #govini-design-system svg {
+    margin-bottom: 16px;
+}
 
 
 /* remove link underline for case studies */
@@ -425,31 +454,21 @@ header {
 }
 #product-page img {
     align-self: center;
-    margin-top: 24px;
+    margin-top: 20px;
     margin-bottom: 24px;
+    width: 110px;
 }
-#product-page h4 {
-    color: #91A6C5;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-    transition: all 0.5s ease-out;
-    margin-top: 0px;
-    margin-bottom: 16px;
+#product-page .copy {
+    margin-top: 48px;
+    margin-left: 7.5%;
 }
 #product-page h2 {
-    margin-top: 48px;
+    margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 7.5%;
-    transition: all 0.5s ease-out;
 }
 #product-page p {
     margin-top: 8px;
     margin-bottom: 0px;
-    margin-left: 7.5%;
-    transition: all 0.5s ease-out;
 }
 #ab-testing {
     margin-top: 0px;
@@ -460,31 +479,22 @@ header {
 #ab-testing img {
     align-self: center;
     margin-top: 8px;
-    margin-bottom: 45px;
-}
-#ab-testing h4 {
-    color: #8DB08D;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-    transition: all 0.5s ease-out;
-    margin-top: 0px;
     margin-bottom: 16px;
+    left: 5px;
+    position: relative;
+}
+#ab-testing .copy {
+    margin-top: 48px;
+    margin-left: 7.5%;
 }
 #ab-testing h2 {
-    margin-top: 48px;
+    margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 7.5%;
     margin-right: 7.5%;
-    transition: all 0.5s ease-out;
 }
 #ab-testing p {
     margin-top: 8px;
     margin-bottom: 0px;
-    margin-left: 7.5%;
-    transition: all 0.5s ease-out;
 }
 #analytic-editor {
     margin-top: 0px;
@@ -494,31 +504,20 @@ header {
 }
 #analytic-editor img {
     align-self: center;
-    margin-top: 71px;
+    margin-top: 40px;
     margin-bottom: 76px;
 }
-#analytic-editor h4 {
-    color: #A596C0;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-    transition: all 0.5s ease-out;
-    margin-top: 0px;
-    margin-bottom: 16px;
+#analytic-editor .copy {
+    margin-top: 48px;
+    margin-left: 7.5%;
 }
 #analytic-editor h2 {
-    margin-top: 48px;
+    margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 7.5%;
-    transition: all 0.5s ease-out;
 }
 #analytic-editor p {
     margin-top: 8px;
     margin-bottom: 0px;
-    margin-left: 7.5%;
-    transition: all 0.5s ease-out;
 }
 #govini-design-system {
     margin-top: 0px;
@@ -531,29 +530,18 @@ header {
     margin-top: 8px;
     margin-bottom: 50px;
 }
-#govini-design-system h4 {
-    color: #BD9E92;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-    transition: all 0.5s ease-out;
-    margin-top: 0px;
-    margin-bottom: 16px;
+#govini-design-system .copy {
+    margin-top: 48px;
+    margin-left: 7.5%;
 }
 #govini-design-system h2 {
-    margin-top: 48px;
+    margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 7.5%;
     margin-right: 7.5%;
-    transition: all 0.5s ease-out;
 }
 #govini-design-system p {
     margin-top: 8px;
     margin-bottom: 0px;
-    margin-left: 7.5%;
-    transition: all 0.5s ease-out;
 }
 
 
@@ -639,15 +627,7 @@ footer svg:hover {
 
 
 /* case study card content grows on hover */
-#product-page:hover .copy h4 {
-    transform: scale(1.02);
-    transition: all 0.5s ease-out;
-}
-#product-page:hover .copy h2 {
-    transform: scale(1.02);
-    transition: all 0.5s ease-out;
-}
-#product-page:hover .copy p {
+#product-page:hover .copy {
     transform: scale(1.02);
     transition: all 0.5s ease-out;
 }
@@ -655,15 +635,7 @@ footer svg:hover {
     transform: scale(1.02);
     transition: all 0.5s ease-out;
 }
-#ab-testing:hover .copy h4 {
-    transform: scale(1.02);
-    transition: all 0.5s ease-out;
-}
-#ab-testing:hover .copy h2 {
-    transform: scale(1.02);
-    transition: all 0.5s ease-out;
-}
-#ab-testing:hover .copy p {
+#ab-testing:hover .copy {
     transform: scale(1.02);
     transition: all 0.5s ease-out;
 }
@@ -671,15 +643,7 @@ footer svg:hover {
     transform: scale(1.02);
     transition: all 0.5s ease-out;
 }
-#analytic-editor:hover .copy h4 {
-    transform: scale(1.02);
-    transition: all 0.5s ease-out;
-}
-#analytic-editor:hover .copy h2 {
-    transform: scale(1.02);
-    transition: all 0.5s ease-out;
-}
-#analytic-editor:hover .copy p {
+#analytic-editor:hover .copy {
     transform: scale(1.02);
     transition: all 0.5s ease-out;
 }
@@ -687,15 +651,7 @@ footer svg:hover {
     transform: scale(1.02);
     transition: all 0.5s ease-out;
 }
-#govini-design-system:hover .copy h4 {
-    transform: scale(1.02);
-    transition: all 0.5s ease-out;
-}
-#govini-design-system:hover .copy h2 {
-    transform: scale(1.02);
-    transition: all 0.5s ease-out;
-}
-#govini-design-system:hover .copy p {
+#govini-design-system:hover .copy {
     transform: scale(1.02);
     transition: all 0.5s ease-out;
 }
@@ -846,8 +802,44 @@ p a:active {
     top: -1px;
     white-space: nowrap;
     text-decoration: underline;
-    margin-left: 4px;
+    /* margin-left: 4px; */
 }
+
+
+.float1 {
+    animation: float 8s infinite ease-in-out;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  .float2 {
+    animation: float 8s infinite ease-in-out;
+    animation-delay: 2s;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+
 
 
 
@@ -1016,16 +1008,31 @@ p a:active {
 
     #product-page {
         display: flex;
-        /* height: 272px; */
+        height: 272px;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
     #product-page img {
-        margin: 24px 8% 24px 0;
-        width: 18%;
+        align-self: center;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        width: 126px;
+        position: relative;
+        left: -40px;
+    }
+    #product-page #video {
+        width: 200px;
+        overflow: hidden;
+    }
+    #video-product-page {
+        position: relative;
+        left: -64%;
+        top: 15px;
+        height: 250px;
     }
     #product-page .copy {
+        margin-top: 0px;
         margin-left: 8%;
     }
     #product-page .copy h2 {
@@ -1049,15 +1056,26 @@ p a:active {
         align-items: center;
     }
     #ab-testing img {
-        margin-left: 48px;
-        margin-right: 40px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        transition: all 0.5s ease-out;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        left: 32px;
+        width: 190px;
+    }
+    #ab-testing #video {
+        width: 400px;
+        overflow: hidden;
+    }
+    #video-ab-testing {
+        position: relative;
+        left: -13%;
+        top: 0px;
+        height: 200px;
     }
     #ab-testing .copy {
+        margin-top: 0px;
         margin-right: 16%;
         order: 1;
+        transition: all 0.5s ease-out;
     }
     #ab-testing .copy h2 {
         margin-top: 0px;
@@ -1087,7 +1105,9 @@ p a:active {
         width: 40%;
     }
     #analytic-editor .copy {
+        margin-top: 0px;
         margin-left: 8%;
+        transition: all 0.5s ease-out;
     }
     #analytic-editor .copy h2 {
         margin-top: 0px;
@@ -1117,8 +1137,10 @@ p a:active {
         transition: all 0.5s ease-out;
     }
     #govini-design-system .copy {
+        margin-top: 0px;
         margin-right: 8%;
         order: 1;
+        transition: all 0.5s ease-out;
     }
     #govini-design-system .copy h2 {
         margin-top: 0px;
@@ -1132,6 +1154,9 @@ p a:active {
         margin-left: 0%;
         font-size: 20px;
         line-height: 30px; /* or 150% */
+    }
+    #product-page svg, #ab-testing svg, #analytic-editor svg, #govini-design-system svg {
+        margin-bottom: 16px;
     }
 
 
@@ -1360,11 +1385,18 @@ p a:active {
         margin-bottom: 40px;
     }
     #product-page img {
-        margin-right: 8.11%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        width: 170px;
-        height: auto;
+        width: 185px;
+        left: -95px;
+    }
+    #product-page #video {
+        width: 340px;
+        overflow: hidden;
+    }
+    #video-product-page {
+        position: relative;
+        left: -57%;
+        top: 15px;
+        height: 400px;
     }
     #product-page .copy {
         margin-left: 8.11%;
@@ -1392,12 +1424,19 @@ p a:active {
         margin-bottom: 40px;
     }
     #ab-testing img {
-        margin-left: 72px;
-        margin-right: 8px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        width: 325px;
+        left: 61px;
+        width: 400px;
         height: auto;
+    }
+    #ab-testing #video {
+        width: 415px;
+        overflow: hidden;
+    }
+    #video-ab-testing {
+        position: relative;
+        left: -21%;
+        top: 0px;
+        height: 350px;
     }
     #ab-testing .copy {
         margin-right: 13.78%;
@@ -1481,6 +1520,10 @@ p a:active {
         margin-top: 16px;
         font-size: 22px;
         line-height: 33px; /* identical to box height, or 150% */
+    }
+
+    #product-page svg, #ab-testing svg, #analytic-editor svg, #govini-design-system svg {
+        margin-bottom: 24px;
     }
 
    

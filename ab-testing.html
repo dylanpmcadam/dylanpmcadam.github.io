@@ -37,154 +37,63 @@
                     <div class="three">
                         <h1>A/B Testing</h1>
                         <h4>Self-service experimentation</h4>
-                    </div>
-                    <div class="four">
-                        <div class="five">
-                            <h5>TIMELINE</h5>
-                            <p>March - June 2022</p>
-                        </div>
-                        <div class="six">
-                            <h5>ROLE</h5>
-                            <p>Research & Design</p>
+                        <div class="group-pills">
+                            <div class="pill">March - June 2022</div>
+                            <div class="pill">Research & Design</div>
+                            <div class="pill">Web App</div>
                         </div>
                     </div>
-                    <div class="seven">
-                        <div class="eight">
-                            <h5>COMPANY</h5>
-                            <p>The Washington Post</p>
-                        </div>
-                        <div class="nine">
-                            <h5>TEAM</h5>
-                            <p>Product: Jessica Wiley / Engineering: Stephanie Clark, Davis Shaver, Shrutha Gandla, Jeong Hoon Koo</p>
-                        </div>
-                    </div>
-                    <img class="ten" src="images/ab-testing/variant-cards.png" alt="variant cards from a/b testing feature">
-                </div>
-            </div>
-        </div>
-
-        <div class ="introduction">
-            <h2>Introduction</h2>
-            <div class="one">
-                <h5>OVERVIEW</h5>
-                <p>I worked with The Washington Post’s subscription tools team on two internal marketing tools. Offer Builder is a WYSIWYG (What You See Is What You Get) editor for offer pages that describe our product plans and pricing. Wall Builder is an editing tool for our paywalls, softwalls, and other onboarding touchpoints.</p>
-                <br>
-                <img class="ten" zoomable src="images/ab-testing/tool-comparison.png" alt="example of wall builder and offer builder tools">
-            </div>
-            <div class="two">
-                <h5>PROBLEM</h5>
-                <p>Our marketing team is constantly running tests on our subscription touchpoints to determine what aspects convert users best: a change in color, a catchy headline, or maybe a new CTA. These experiments are critical to forming a data-informed user journey, but take up too much product, design, and engineering resources.</p>
-            </div>
-            <div class="three">
-                <h5>SOLUTION</h5>
-                <p>Our solution was to create an A/B testing MVP feature within Wall Builder to allow marketing to independently design, setup, and run experiments.</p>
-            </div>
-            <div class="four">
-                <h5>GOAL</h5>
-                <p>We hoped this feature would achieve two goals:</p>
-                <br>
-                <ol>
-                    <li>Increase the bandwidth of product, design, and engineering teams.</li>
-                    <li class="five"><b>Speed up experimentation on points of friction</b> in the user acquisition and purchase journey.</li>
-                  </ul>
-            </div>
-        </div>
-
-        <div class ="research">
-            <div class="one">
-                <h2>Research</h2>
-                <div class="three">
-                    <h5>FEEDBACK</h5>
-                    <p>To begin, I held a kickoff meeting with our larger marketing team and then a requirements-gathering meeting with our power users Chase, Kelsey, and Nicole to discuss expectations and needs. Some of the key asks were:</p>
-                    <br>
-                    <ul>
-                        <li>A way to create labels and descriptions for each variant</li>
-                        <li class="five">The ability to customize traffic split</li>
-                        <li class="six">A history feature for tracking past tests</li>
-                    </ul>
-                </div>
-                <div class="four">
-                    <h5>COMPETITIVE AUDIT</h5>
-                    <p>I used three existing tools as inspiration for our A/B testing feature: Arc Carta, Instapage, and Google Optimize. Our marketing team had already been utilizing Instagpage for A/B tests on offsite touchpoints. This user experience served as the most recent frame of reference for our users. Carta is another Washington Post internal tool used by our newsroom to write and manage stories. Their implementation of a similar testing feature allowed us to understand what UI components could be reused in our own tool.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class ="design">
-            <h2>Design</h2>
-            <div class="one">
-                <h5>ITERATIVE DESIGN</h5>
-                <p>This feature was entirely housed in toolbar rail along the right side of the screen. Below you can see examples of the design process.<br><br></p>
-                <div class="two">
-                    <div class="three">
-                        <p><b>Mockups</b></p>
-                        <div class="four">
-                            <img zoomable src="images/ab-testing/toolbar-mockup-1.png" alt="early mockup of right rail">
-                            <img zoomable src="images/ab-testing/toolbar-mockup-2.png" alt="early mockup of right rail">
+                    <div class="thirteen">
+                        <div class="seven">
+                            <div class="eight">
+                                <h5>COMPANY</h5>
+                                <p>The Washington Post</p>
+                            </div>
+                            <div class="nine">
+                                <h5>TEAM</h5>
+                                <p>Product: Jessica Wiley / Engineering: Stephanie Clark, Davis Shaver, Shrutha Gandla, Jeong Hoon Koo</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="five">
-                        <p><b>Final Screen</b></p>
-                        <div class="six">
-                            <img zoomable src="images/ab-testing/toolbar-screen.png" alt="final screen a/b testing feature">
-                        </div>
+                    <div id="video">
+                        <video autoplay loop muted playsinline alt="wall builder a/b testing feature">
+                            <source 
+                              src="images/ab-testing/video-safari.mp4" 
+                              type='video/mp4; codecs="hvc1"'>
+                            <source 
+                              src="images/ab-testing/video-chrome.webm" 
+                              type="video/webm">
+                          </video>  
                     </div>
-                </div>
-            </div>
-            <div class="eight">
-                <div class="nine">
-                    <h5>FEATURES</h5>
-                </div>
-                <div class="ten">
-                    <div class="eleven">
-                        <p><b>Inheritance Logic</b><br>The most complex part of this feature was applying the pre-existing inheritance in Wall Builder to variants. Our ‘inheritance logic’ works by allowing changes made to the Default Wall to be inherited by added regions. This speeds up the creation and editing process for our marketing users who often have walls with multiple regions.</p>
+                    <div id="challenge" class="nine">
+                        <h5>CHALLENGE</h5>
+                        <p>I worked with The Washington Post’s subscription tools team on two internal marketing tools: Wall Builder and Offer Builder. Wall Builder is an editor for our paywalls, softwalls, and other acquisition touchpoints, while Offer Builder is an editor for offer pages that describe our product plans and pricing. Our marketing team is constantly running tests to determine what aspects convert users best: a change in color, a catchy headline, or maybe a new CTA. These experiments are critical to forming an optimized data-driven user journey, but <mark>take up too much product, design, and engineering resources</mark>.</p>
+                    </div>
+                    <div class="nine">
+                        <h5>SOLUTION</h5>
+                        <p>I led the design of A/B testing features for Wall Builder and Offer Builder (launched in July 2022 and February 2023, respectively). These solutions <mark>allow marketing to independently design, setup, and run experiments</mark>, speeding up experimentation and increasing the bandwidth of our teams. Here is an example of a quick test our team was able to complete thanks to this testing feature:</p>
                         <br>
-                        <p>For A/B testing, a regional variant could inherit changes from three parents: the Default Wall, the regional parent, and the variant parent. To solve this issue, we came up with the concept of an override. An override, or change made to a child wall that ‘overrides’ a setting in the parent, causes the inheritance between the parent and child to be broken. In the example below, overriding the color of Variant 1 of the Default Wall breaks inheritance from the parent. Any future color changes to either the Default Wall or the regional parent India will no longer flow to either Variant 1.</p>
-                        <img zoomable src="images/ab-testing/inheritance.png" alt="example of inheritance logic">
-                    </div>
-                    <div class="twelve">
-                        <p><b>Traffic Split</b><br>Due to backend constraints, we settled for five preset types instead of a completely customizable traffic split. Key to this workaround is the “custom” or cookie-based allocation split. This allows a user to provide a cookie name and values for each variant to split the users based on non-traffic related aspects. For example, we’ve already seen a 50% reduction in the number of user-engagement-based walls. Walls for high, medium, or low engagement levels can now be combined into single a template.</p>
-                        <img zoomable src="images/ab-testing/cookie-split.png" alt="custom cookie inputs">
-                    </div>
-                </div>
-                <div class="thirteen">
-                    <p><b>Archiving</b><br>Saving testing history allows our marketing team to track results and learnings. However, the amount of engineering lift required to follow through with our initial designs pushed us to a lower-effort solution. When a test is complete, you can toggle A/B testing off and choose a variant winner (where 100% of the traffic will be directed). Later you can toggle the feature back on and see details of all the previously tested variants. Creating a more robust archiving solution is something our team has yet to resolve.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class ="conclusion">
-            <div class="one">
-                <h2>Insights</h2>
-                <div class="two">
-                    <h5>Outcomes</h5>
-                    <p>The Wall Builder A/B testing feature was released in July 2022. After training sessions with marketing users were conducted, <b>one-month lead times for wall tests were cut down to 3 days—a 90% reduction with savings of ~ $10,976 per campaign</b> (based on the average salary of marketing and engineering users). Here are a few of the quick tests our team was able to complete thanks to this testing feature.</p>
-                    <br>
-                    <ul>
-                        <li>Hypothesis: Custom imagery on paywall will increase conversions.</li>
-                            <ul>
-                                <li>
-                                    No image outperformed image inclusion (+3.3% CVR).
-                                </li>
-                            </ul>
-                        <li class="four">Hypothesis: CTA copy tailored to a user's journey will increase conversions. This test was conducted on our winback paywall where we ask users to resubscribe.</li>
                         <ul>
-                            <li>
-                                “Restart subscription” outperformed "Continue" (+22% CVR).
-                            </li>
-                        </ul>
-                    </ul>
-                    <br>
-                    <p>Testing is a critical part of an effective data-driven product. The success of this A/B testing feature in Wall Builder has convinced our product team of the need for similar testing solutions. As a result, I led the design of a similar A/B testing feature for Offer Builder that is set for release in February 2023.</p>
-                </div>
-                <div class="three">
-                    <h5>FUTURE</h5>
-                    <p>We are designing a self-service analytics modal for a future release. Because our analytics team currently handles test results, our marketing users often have to wait on critical data regarding significance and performance.</p>
-                    <br>
-                    <img zoomable src="images/ab-testing/modal-analytics.png" alt="future analytics modal">
-                    <br>
-                    <br>
-                    <p>Marketing continues to rely on engineering support to determine what types of readers are shown each variant. In the future, we plan to also build a feature that will allow marketing users to specify targeting rules on their own.</p>
+                            <li>Hypothesis: Custom imagery on the paywall will increase conversions.</li>
+                                <ul>
+                                    <li>
+                                        Image inclusion underperformed no image (-3.3% CVR).
+                                    </li>
+                                </ul>
+                    </div>
+                    <div class="nine">
+                        <h5 id="impact">IMPACT</h5>
+                        <div class="fourteen">
+                            <div class="eleven">
+                                <h2>90%</h2>
+                                <p>increase in marketing experimentation speed</p>
+                            </div>
+                            <div class="twelve">
+                                <h2>$11K</h2>
+                                <p>in savings per campaign <i>(based on average salaries)</i></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
