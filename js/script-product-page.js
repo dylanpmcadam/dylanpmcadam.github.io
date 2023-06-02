@@ -237,33 +237,3 @@ $('img[zoomable]').addClass('img-enlargeable').click(function() {
       }
     });
   });
-
-
-
-// script pulled from stackoverflow for an automatic slideshow of research
-const slideshowArray = [
-  'images/product-page/study-1.png',
-  'images/product-page/study-2.png',
-  'images/product-page/study-3.png',
-  'images/product-page/study-4.png',
-  'images/product-page/study-5.png'
-];
-
-let index = 0;  // This will keep track of the current array index to use
-let img = document.getElementById('slideshow'); // Get your reference just once, not on each function call
-
-function autoChange() {
-  // You only need to ensure that the index isn't out of bounds
-  if(index < slideshowArray.length){
-    img.src = slideshowArray[index];      // If not, use the index
-    index++;                        // Then, increment it
-    console.clear();
-    console.log(slideshowArray[index]);
-  } else {
-    index = 0;  // If so, reset the index
-  }
-  // Now that the right image is showing, wait 2 seconds and call the function all over again
-  setTimeout(autoChange, 2000);  
-}
-
-autoChange();

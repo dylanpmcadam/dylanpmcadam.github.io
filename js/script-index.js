@@ -279,12 +279,3 @@ function showMore(){
 
 
 }
-
-// change the default speed of the videos on the page
-var vid1 = document.getElementById('video-product-page');
-vid1.load();
-vid1.playbackRate = .85;
-
-var vid2 = document.getElementById('video-ab-testing');
-vid2.load();
-vid2.playbackRate = .85;
