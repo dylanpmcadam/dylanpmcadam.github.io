@@ -85,8 +85,8 @@ h5 {
 }
 
 mark {
-    background-color: #F6F2AF;
-    color: #3b4950;
+    background-color: #F6F2AF !important;
+    color: #3b4950 !important;
 }
 
 
@@ -807,7 +807,7 @@ p a:active {
 
 
 .float1 {
-    animation: float 8s infinite ease-in-out;
+    animation: float 4s infinite ease-in-out;
   }
   
   @keyframes float {
@@ -823,7 +823,7 @@ p a:active {
   }
 
   .float2 {
-    animation: float 8s infinite ease-in-out;
+    animation: float 4s infinite ease-in-out;
     animation-delay: 2s;
   }
   
