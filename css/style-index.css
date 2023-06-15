@@ -259,13 +259,13 @@ h3 {
     background: linear-gradient(180deg, #E0F1E0 0%, #F2F1E6 100%);
     border-radius: 10px;
 }
-#ab-testing img {
+/* #ab-testing img {
     width: 274px;
     height: 235px;
     border-radius: 2px;
     transition: all 0.5s ease-out;
     object-fit: contain;
-}
+} */
 #ab-testing #video {
     width: 100%;
     overflow: hidden;
@@ -1034,6 +1034,7 @@ p a:active {
     #product-page .copy {
         margin-top: 0px;
         margin-left: 8%;
+        transition: all 0.5s ease-out;
     }
     #product-page .copy h2 {
         margin-top: 0px;
