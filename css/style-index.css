@@ -133,10 +133,10 @@ mark {
     padding-top: 113%;
 }
 #portrait img {
-    width: 132%;
+    width: 100%;
     position: absolute;
-    top: -7%;
-    left: -13%;
+    top: -2%;
+    left: -1%;
     -webkit-mask-image: linear-gradient(to top, rgba(249, 249, 249, 0.00) 0%, rgba(249, 249, 249, 100%) 34.9%, rgba(249, 249, 249, 100%) 100%);
 }
 
@@ -478,10 +478,10 @@ header {
 }
 #ab-testing img {
     align-self: center;
-    margin-top: 8px;
-    margin-bottom: 16px;
+    margin-top: 35px;
     left: 5px;
     position: relative;
+    width: 280px;
 }
 #ab-testing .copy {
     margin-top: 48px;
@@ -933,9 +933,9 @@ p a:active {
     }
 
     #portrait img {
-        width: 157%;
+        width: 125%;
         top: -28%;
-        left: -37%;
+        left: -25%;
         -webkit-mask-image: linear-gradient(to top, rgba(249, 249, 249, 0.00) 0%, rgba(249, 249, 249, 100%) 34.9%, rgba(249, 249, 249, 100%) 100%);
     }
 
