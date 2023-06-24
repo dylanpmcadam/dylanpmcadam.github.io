@@ -128,16 +128,16 @@ mark {
 /* full portrait photo within smaller div */
 #portrait {
     grid-column: 1 / 5;
-    border-radius: 10px;
-    overflow: hidden;
     position: relative;
     width: 100%;
-    padding-top: 100%;
+    padding-top: 113%;
 }
 #portrait img {
-    width: 100%;
+    width: 132%;
     position: absolute;
-    top: -3%;
+    top: -7%;
+    left: -13%;
+    -webkit-mask-image: linear-gradient(to top, rgba(249, 249, 249, 0.00) 0%, rgba(249, 249, 249, 100%) 34.9%, rgba(249, 249, 249, 100%) 100%);
 }
 
 /* bio */
@@ -928,6 +928,15 @@ p a:active {
 
     #portrait {
         grid-column: 6 / 9;
+        overflow: visible;
+        background: none;
+    }
+
+    #portrait img {
+        width: 157%;
+        top: -28%;
+        left: -37%;
+        -webkit-mask-image: linear-gradient(to top, rgba(249, 249, 249, 0.00) 0%, rgba(249, 249, 249, 100%) 34.9%, rgba(249, 249, 249, 100%) 100%);
     }
 
     #bio {
