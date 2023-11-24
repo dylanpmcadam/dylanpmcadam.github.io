@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Dylan McAdam - Product Designer" /> 
-    <meta property="og:description" content="A self-taught product and systems designer."/>
+    <meta property="og:description" content="A digital product designer."/>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://dylanpmcadam.com/" />
     <meta property="og:image" content="https://dylanpmcadam.com/images/logo-og.png" />
@@ -23,7 +23,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/modern-normalize.css">
     <link rel="stylesheet" href="css/style-analytic-editor.css">
-    <script src="js/script-analytic-editor.js" defer></script>
+    <script src="js/script-product-page.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 
@@ -46,169 +46,63 @@
                     <div class="three">
                         <h1>Analytic Editor</h1>
                         <h4>Data visualization editor</h4>
-                    </div>
-                    <div class="four">
-                        <div class="five">
-                            <h5>TIMELINE</h5>
-                            <p>February - June 2021</p>
+                        <div class="group-pills">
+                            <div class="pill">February - June 2021</div>
+                            <div class="pill">Research & Design</div>
+                            <div class="pill">Web App</div>
                         </div>
-                        <div class="six">
-                            <h5>ROLE</h5>
-                            <p>Research & Design</p>
-                        </div>
-                    </div>
-                    <div class="seven">
-                        <div class="eight">
-                            <h5>COMPANY</h5>
-                            <p>Govini</p>
-                        </div>
-                        <div class="nine">
-                            <h5>TEAM</h5>
-                            <p>Product: Andrew Maclary / UX: Ellis Lee / Engineering: Bradley Sheets, Nate Chapman</p>
-                        </div>
-                    </div>
-                    <img class="ten" src="images/analytic-editor/card-analytic.png" alt="clustered column analytic card">
-                </div>
-            </div>
-        </div>
-
-        <div class ="introduction">
-            <h2>Introduction</h2>
-            <div class="one">
-                <h5>OVERVIEW</h5>
-                <p>Govini’s Decision Science Platform is a data analytics web app used throughout the U.S. government to better direct investments and make decisions. Government personnel rely on analytics that condense the data found in this platform to communicate key insights to their teams. </p>
-                <br>
-                <p class="disclaimer"><i>(Disclaimer: in the context of this case study the term “analytic” refers to any data visualization.)</i></p>
-            </div>
-            <div class="two">
-                <h5>PROBLEM</h5>
-                <p>We were losing users with our incomplete analytic workflow. Our users were being forced to leave the platform to complete tasks in the following ways:</p>
-                <br>
-                <ol>
-                    <li>Exporting our data to create analytics in other software.</li>
-                    <br>
-                    <li>Exporting images of our default analytics to customize the colors, title, etc.</li>
-                  </ol>
-            </div>
-            <div class="three">
-                <h5>SOLUTION</h5>
-                <p>Our vision was to create a feature that contributed to making the platform a complete workspace, rather than just a data export tool. We would accomplish this by releasing an analytic editor, allowing users to:</p>
-                <br>
-                <ol>
-                    <li>Create analytics in-platform from our data.</li>
-                    <br>
-                    <li>Customize analytic appearance and order.</li>
-                  </ul>
-            </div>
-            <div class="four">
-                <h5>GOAL</h5>
-                <p>Our ongoing focus was to get users to stay longer and accomplish more within the platform. We aimed to solve issues with analytic workflows by releasing this feature before the end of Q2 2021.<br><br>We believed that the Decision Science Platform would be utilized more if government employees could successfully create and edit analytics within the platform. We hoped this feature would also <b>increase our key engagement metric (Weekly Active Users)</b> and strengthen our sales pitch.</p>
-            </div>
-        </div>
-
-        <div class ="research">
-            <div class="one">
-                <h2>Research</h2>
-                <div class="three">
-                    <h5>PAIN POINTS</h5>
-                    <p>Understanding the problems with our users' current analytic workflow was key to determining our solution. Past research had shown that we have 2 main types of users: creators and consumers.<br><br>Our creator persona, dubbed GS-9 Jerry, is a typical government analyst who needs to create content to aid in national security decision making. After reviewing feedback, requirements, and solutions with users matching this persona, two main pain points emerged:</p>
-                    <br>
-                    <ul>
-                        <li><i>“The data searches I run don’t give me what I need. I have to export the data, bring it into Tableau, and create charts there. This really slows me down.”</i></li>
-                        <br>
-                        <li><i>“I literally have to screenshot the default analytics and go into Microsoft Paint to change the colors or paste over the legends or add titles.”</i></li>
-                    </ul>
-                    <figure>
-                        <img zoomable src="images/analytic-editor/research.png" alt="user research">
-                        <figcaption>Feedback session with a GS-9 Jerry</figcaption>
-                      </figure>
-                </div>
-            </div>
-        </div>
-
-        <div class ="design">
-            <h2>Design</h2>
-            <div class="one">
-                <h5>ITERATIVE DESIGN</h5>
-                <p>We relied on our existing design system for the bulk of the UI for this feature. Below are a few examples of the process:<br><br></p>
-                <div class="two">
-                    <div class="three">
-                        <p><b>Mockups</b></p>
-                        <div class="four">
-                            <img zoomable src="images/analytic-editor/low-fidelity-1.png" alt="sketch of analytic editor">
-                            <img zoomable src="images/analytic-editor/low-fidelity-2.png" alt="wireframe of analytic editor">
-                        </div>
-                    </div>
-                    <div class="five">
-                        <p><b>Final Screens</b></p>
-                        <div class="six">
-                            <figure>
-                                <img zoomable src="images/analytic-editor/high-fidelity-1.png" alt="final data search screen">
-                                <figcaption>1. Data view of a custom search</figcaption>
-                              </figure>
-                              <figure>
-                                <img zoomable src="images/analytic-editor/high-fidelity-2.png" alt="final analytics tab screen">
-                                <figcaption>2. Option to create an analytic from a data search</figcaption>
-                              </figure>
-                              <figure>
-                                <img zoomable src="images/analytic-editor/high-fidelity-3.png" alt="final analytic editor screen">
-                                <figcaption>3. Cutomize variables for your analytic</figcaption>
-                              </figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="seven">
-                <h5>USABILITY TESTING</h5>
-                <p>I created a clickable prototype that I tested with internal users to ensure that the UI and flow were comprehensible. Before the release I ran a week of user acceptance testing (UAT) with the product manager to ensure the developed feature matched our intended use cases, while also checking for styling errors or bugs.</p>
-            </div>
-            <div class="eight">
-                <div class="nine">
-                    <h5>FEATURES</h5>
-                </div>
-                <div class="ten">
-                    <div class="eleven">
-                        <p><b>Analytic Types:</b><br>Create or edit one of ten analytic types.</p>
-                        <img src="images/analytic-editor/feature-1.png" alt="chart type dropdown">
-                    </div>
-                    <div class="twelve">
-                        <p><b>Variables:</b><br>Variables are surfaced to control what data is visualized. Nivo.rocks, a React d3 library, provided the bulk of this functionality.</p>
-                        <img src="images/analytic-editor/feature-2.gif" alt="variable options">
                     </div>
                     <div class="thirteen">
-                        <p><b>Reorder:</b><br>Curate the order of your analytics before exporting the page as a PDF for use in reports or presentations.</p>
-                        <img src="images/analytic-editor/feature-3.gif" alt="drag and drog function">
+                        <div class="seven">
+                            <div class="eight">
+                                <h5>COMPANY</h5>
+                                <p>Govini</p>
+                            </div>
+                            <div class="nine">
+                                <h5>TEAM</h5>
+                                <p>Product: Andrew Maclary / UX: Ellis Lee / Engineering: Bradley Sheets, Nate Chapman</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="image">
+                        <img src="images/analytic-editor/high-fidelity-mockup.png" alt="analytic editor feature">
+                    </div>
+                    <div id="challenge" class="nine">
+                        <h5>CHALLENGE</h5>
+                        <p>Govini’s Decision Science Platform is a data analytics SaaS app used by U.S. government agencies to better direct investments and make decisions. Government analysts that use the software rely on data visualizations to communicate key insights to their teams. Our research found that <mark>our incomplete workflow was forcing users to export data and create these visualizations outside the platform</mark>.</p>
+                    </div>
+                    <div class="nine">
+                        <h5>SOLUTION</h5>
+                        <p>To keep users in the platform and strengthen our product’s sales pitch, <mark>I designed a new analytic workflow</mark> that allowed users to:</p>
+                        <br>
+                        <ul>
+                            <li>create ten different data visualizations in-platform</li>
+                            <li>customize their appearance and order for presentations</li>
+                        </ul>
+                    </div>
+                    <div class="nine">
+                        <h5 id="impact">IMPACT</h5>
+                        <div class="fourteen">
+                            <div class="eleven">
+                                <h2>43%</h2>
+                                <p>increase in users creating analytics from their data searches</p>
+                            </div>
+                            <div class="twelve">
+                                <h2>12% - 16%</h2>
+                                <p>growth in Weekly Active Users (WAU)</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
-        <div class ="conclusion">
-            <div class="one">
-                <h2>Insights</h2>
-                <div class="two">
-                    <h5>OBSTACLES</h5>
-                    <p>During UAT testing, I discovered we lacked a variable input reset. So if “Year” was selected for the x-axis of a scatter plot, there wasn’t a way to clear this choice. The engineering team and I worked ad-hoc to solve this issue by adding a “None” option to the input dropdown. While this addition wasn’t in the initial release, it was prioritized for the following sprint.<br><br>Real-world constraints ultimately determine a feature’s fate:</p>
-                    <br>
-                    <ul>
-                        <li>I completed the design for this analytic editor feature in the Fall of 2020. The project was then reprioritized for 2021, resulting in a complete redesign for new requirements.</li>
-                        <br>
-                        <li>A lack of engineering bandwidth caused half of the workflow to be descoped after dev handoff. While the wasted effort was unfortunate, it allowed the feature to be delivered on time.</li>
-                    </ul>
-                </div>
-                <div class="three">
-                    <h5>SUCCESS METRICS</h5>
-                    <p>Despite bugs found by our QA team that pushed this release to the beginning of Q3, this feature is now live in the Decision Science Platform.<br><br>We’ve seen an increase by 43% in users accessing analytics attached to their data searches. Additionally, <b>our Weekly Active Users (WAU) has grown by 16% and 12%</b> following the release of analytic editor.</p>
-                </div>
-            </div>
-        </div>
 
         <div class ="other">
             <h5>OTHER CASE STUDIES</h5>
             <div class="one">
-                <a href="javascript:void(0)" id="product-page">The Post Product Page</a>
                 <a href="javascript:void(0)" id="ab-testing">A/B Testing</a>
+                <a href="javascript:void(0)" id="analytic-editor">Analytic Editor</a>
                 <a href="javascript:void(0)" id="govini-design-system">Govini Design System</a>
             </div>
         </div>

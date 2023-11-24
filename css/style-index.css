@@ -545,7 +545,7 @@ header {
 }
 #logo-govini {
     width: 70px !important;
-    margin-bottom: 24px !important;
+    margin-bottom: 16px !important;
 }
 
 
@@ -905,6 +905,9 @@ p a:active {
     #logo {
         width: 75px;
         height: 75px;
+    }
+    #logo-govini {
+        margin-bottom: 24px !important;
     }
 
 
